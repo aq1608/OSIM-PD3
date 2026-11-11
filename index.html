@@ -258,6 +258,8 @@ function applyFilter(){
   list=Q.filter(inFilter);
   if(state.wrongOnly) list=list.filter(q=>!isCorrect(q,state.answers[q.id]));
   if(state.shuffle) list=shuffled(list,state.seed||1);
+  const TYPE_ORDER={multi:0,mc:1,tf:2,sa:3};            // multi-select questions first (stable sort)
+  list=list.map((q,i)=>[q,i]).sort((a,b)=>TYPE_ORDER[a[0].type]-TYPE_ORDER[b[0].type]||a[1]-b[1]).map(x=>x[0]);
   cur=0; pendingMulti=[]; renderChips(); render();
 }
 function count(tid){ return Q.filter(q=>q.t===tid&&state.diffs.includes(q.d)).length; }

@@ -5,7 +5,7 @@ A revision quiz for **Operations Security & Incident Management**, available in 
 - **Streamlit:** `app.py`
 - **Static HTML for GitHub Pages:** `index.html`
 
-The quiz has 366 questions across 21 categories: one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
+The quiz has 536 questions across 21 categories. 180 of them are select-all-that-apply, which both versions show first. The categories are one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
 
 It is unofficial and not guaranteed 100% accurate. If something looks off, check the source slides.
 
@@ -41,8 +41,9 @@ The HTML version saves your progress in the browser's localStorage. It also supp
 
 ## Features
 
-- In the sidebar, filter by lecture, by other material, and by difficulty
-- Four question types: multiple choice, select-all-that-apply, true/false, and short answer
+- Both versions share the same dark navy look. Filter chips let you pick lectures, other materials, question type and difficulty.
+- Four question types: select-all-that-apply, multiple choice, true/false, and short answer. Select-all questions are listed first. To practise only those, set the **Question type** filter to **Multi-select**.
+- For select-all questions, tick each option you think is correct, then press **Submit**. Correct ticks, wrong ticks and options you missed are each marked.
 - Each answer shows an explanation, and the options are shuffled for every question
 - **Review all** mode, **Shuffle question order**, and **Only unanswered / wrong** for retrying mistakes
 - Progress is kept for the browser session. Under **Save / load progress** you can download it as a JSON file and load it again later.

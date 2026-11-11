@@ -496,6 +496,247 @@
    ]
   },
   {
+   "t": "L01",
+   "d": "M",
+   "q": "Which are the 3 pillars of Singapore's Cybersecurity Strategy 2021? (tick all that apply)",
+   "o": [
+    "Building a Resilient Infrastructure",
+    "Enable a Safer Cyberspace",
+    "Enhance International Cyber Cooperation",
+    "Grow a Robust Cyber Talent Pipeline",
+    "Develop a Vibrant Cybersecurity Ecosystem"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The last two are the 2 foundational enablers, not pillars.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 25,
+     "quote": "Building a Resilient Infrastructure • Enable a Safer Cyberspace • Enhance International Cyber Cooperation • 2 Foundational Enablers"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "E",
+   "q": "Which items does a Crisis Communication Plan often include? (tick all that apply)",
+   "o": [
+    "Designated spokesperson(s)",
+    "Communication channels",
+    "Roles and competencies needed",
+    "Communication principles",
+    "Detailed IT system recovery procedures"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "IT recovery procedures belong in the DRP. The CCP also lists external resources.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 40,
+     "quote": "1. Designated spokesperson(s) 2. Communication Channels 3. Roles and competencies needed 4. Communication principles"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "M",
+   "q": "Which of these are among Singapore's 11 critical sectors for CII? (tick all that apply)",
+   "o": [
+    "Energy",
+    "Water",
+    "Healthcare",
+    "Media",
+    "Retail",
+    "Education"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The 11 sectors: Energy, Water, Banking & Finance, Healthcare, Transport (Land, Maritime, Aviation), Government, Infocomm, Media, Security & Emergency Services.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 37,
+     "quote": "Energy, Water, Banking & Finance, Healthcare, Transport (which includes Land, Maritime, and Aviation), Government, Infocomm, Media, and Security & Emergency Services."
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "E",
+   "q": "Per L01, resilience is a capability for an organisation to: (tick all that apply)",
+   "o": [
+    "Anticipate adverse events",
+    "Deal with unknown threats and risks",
+    "Absorb damages and bounce back to operation",
+    "Adapt to changes",
+    "Eliminate every possible risk"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Resilience is about continuing existence and staying relevant, not eliminating all risk.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 9,
+     "quote": "anticipate adverse events • deal with unknown threats and risks • absorb damages & bounce back to operation • adapt to changes"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "E",
+   "q": "Which rapid changes make resilience important? (tick all that apply)",
+   "o": [
+    "Accelerated pace of change",
+    "Disruptive innovation",
+    "Market consolidation",
+    "Environmental changes",
+    "Declining use of technology"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Magnitude of change is also listed.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 11,
+     "quote": "Accelerated pace of change • Magnitude of change • Disruptive innovation • Market consolidation • Environmental changes"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "M",
+   "q": "Which items belong to the 'Information' part of a BCP? (tick all that apply)",
+   "o": [
+    "Company details (name, address, contact details)",
+    "Author, reviewer and approver",
+    "Version number and revision dates",
+    "Scope, objectives and assumptions",
+    "Business Impact Analysis"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The BIA belongs to the 'Business' part of the BCP.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 32,
+     "quote": "Company details (Name, address, contact details) o Author, reviewer and approver o Version number and revision dates o Scope, objectives and assumption"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "M",
+   "q": "Which are characteristics of a Critical Infrastructure Protection (CIP) plan? (tick all that apply)",
+   "o": [
+    "Owned by a government (e.g. state, provincial)",
+    "Has both general and sector-specific approaches",
+    "Specifies threat levels with colour coding",
+    "Owned and written by a single private company"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Organisations should align their BCP and DRP with the CIP plan for their jurisdiction.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 38,
+     "quote": "The plan is owned by a government e.g. state, provincial. • Consists of both general and sector-specific approaches. • Specifies level of threats/situation with colour coding"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "M",
+   "q": "Which steps are in the NIST contingency planning lifecycle shown in L01? (tick all that apply)",
+   "o": [
+    "Conduct the Business Impact Analysis",
+    "Identify preventive controls",
+    "Create contingency strategy",
+    "Ensure plan testing, training and exercise",
+    "Purchase cyber insurance"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The lifecycle also includes the policy statement, developing the plan and plan maintenance.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 30,
+     "quote": "Identify preventive controls … Create contingency strategy … Ensure plan testing, training, and exercise"
+    }
+   ]
+  },
+  {
+   "t": "L01",
+   "d": "M",
+   "q": "Which are typical contents of a Cyber Incident Response Plan (L01)? (tick all that apply)",
+   "o": [
+    "Mission",
+    "Strategies and goals",
+    "Senior Management approval",
+    "Metric to measure capability and effectiveness",
+    "Building evacuation map"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also: organisational approach, communication, maturity roadmap and alignment with the organisation.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 41,
+     "quote": "Mission • Strategies and goals • Senior Management approval … Metric to measure capability and effectiveness"
+    }
+   ]
+  },
+  {
    "t": "L02",
    "d": "E",
    "q": "Which source defines a threat simply as 'anything that can result in harm'?",
@@ -994,6 +1235,239 @@
    ]
   },
   {
+   "t": "L02",
+   "d": "M",
+   "q": "Which are listed as examples of applicable threats for OPERATIONAL risk? (tick all that apply)",
+   "o": [
+    "Ineffective/outdated process",
+    "Non-compliance to SOPs",
+    "Natural and man-made disasters",
+    "Forged cheques"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Forged cheques are a FRAUD risk threat.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 22,
+     "quote": "Ineffective/outdated process • Non-compliance to SOPs • Natural and man-made disasters"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "E",
+   "q": "Which are risk categories in the WEF Global Risks Report? (tick all that apply)",
+   "o": [
+    "Economic",
+    "Environmental",
+    "Geopolitical",
+    "Societal",
+    "Technological",
+    "Legal"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "e": "Five categories; 'Legal' is not one of them.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 31,
+     "quote": "• Economic Risks • Environmental Risks • Geopolitical Risks • Societal Risks • Technological Risks"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "Which asset classes do the CIS Controls cover? (tick all that apply)",
+   "o": [
+    "Devices",
+    "Software",
+    "Data",
+    "Users",
+    "Budgets"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Asset classes: Devices, Software, Data, Users, Network and Documentation.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 43,
+     "quote": "Devices, Software, Data, Users, Network and Documentation"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "Which are THREAT SOURCES listed in L02? (tick all that apply)",
+   "o": [
+    "Insiders (employees, contractors)",
+    "External parties (service providers, suppliers, customers)",
+    "Deficiencies (low awareness, lack of preparation)",
+    "Natural disasters (fire, flood, earthquake)",
+    "Shareholder votes"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Complexities and intent (intentional / unintentional) are also listed.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 7,
+     "quote": "Employees • Contractors … Service providers • Suppliers • Customers … Low awareness • Lack of preparation"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "E",
+   "q": "Which are the major categories of incidents in L02? (tick all that apply)",
+   "o": [
+    "Unavailability of key services",
+    "Confidential data breach",
+    "Key business process disruption",
+    "Office renovation"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Each category has typical causes, e.g. cyber attacks, infrastructure failure, ineffective controls.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 10,
+     "quote": "Unavailability of Key Services … Confidential Data Breach … Key Business Process Disruption"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "Which are examples of COMPLIANCE, LEGAL and REGULATORY risk threats? (tick all that apply)",
+   "o": [
+    "Regulatory changes",
+    "Lawsuits",
+    "Audit findings of non-compliance",
+    "Forged cheques"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Forged cheques are a fraud risk threat.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 24,
+     "quote": "Regulatory changes • Lawsuits • Audit findings of non-compliance"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "Which are examples of OUTSOURCING risk threats? (tick all that apply)",
+   "o": [
+    "Service provider went out of business",
+    "Continuing service lapses",
+    "Leakage of confidential information from outsourcing companies",
+    "Weak password policy"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Weak password policy is an identity management risk.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 25,
+     "quote": "Service provider went out of business • Continuing service lapses • Leakage of confidential information from outsourcing companies"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "E",
+   "q": "Which are examples of FRAUD risk threats? (tick all that apply)",
+   "o": [
+    "Reimbursement/claim fraud",
+    "Forged cheques",
+    "Fictitious payments",
+    "Misconfiguration"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Fraud is intentional — deceit, concealment or violation of trust.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 23,
+     "quote": "Reimbursement/Claim fraud • Forged cheques • Fictitious payments"
+    }
+   ]
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "What drives increasing TECHNOLOGY risks per L02? (tick all that apply)",
+   "o": [
+    "Technology innovations",
+    "IT outsourcing and offshoring",
+    "Heightened risk of cyber attacks and system disruptions",
+    "Lower IT budgets everywhere"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Example threats: untrained developers, leakage by service providers, criminal cyber attacks.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 21,
+     "quote": "Technology innovations • IT outsourcing and offshoring • Heightened risk of cyber attacks and system disruptions."
+    }
+   ]
+  },
+  {
    "t": "L03",
    "d": "M",
    "q": "Which BCM definition emphasises 'ensuring uninterrupted availability of all key business resources required to support critical business activities, whether manual or IT-enabled'?",
@@ -1380,6 +1854,247 @@
      "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
      "page": 10,
      "quote": "Benefits from BCM Prevents potential issues before they materialise Reduces impact to acceptable level Reduces risks to acceptable level Breaks silos and encourage enterprise governance approach Create or increase a competitive advantage"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "E",
+   "q": "Which are organisational resources to consider when developing BCM strategies? (tick all that apply)",
+   "o": [
+    "People",
+    "Premises",
+    "Technology",
+    "Information",
+    "Finance",
+    "Marketing"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The 6 resources: People, Premises, Technology, Information, Supplies, Stakeholders.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 42,
+     "quote": "1. People 2. Premises 3. Technology 4. Information 5. Supplies 6. Stakeholders"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which factors influence what a BCM policy looks like? (tick all that apply)",
+   "o": [
+    "Industry: regulated vs non-regulated",
+    "Type of company: public vs private",
+    "Risk appetite and tolerance",
+    "Costs",
+    "The company's logo and branding"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "There is no one-size-fits-all policy; size and jurisdiction also matter.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 26,
+     "quote": "The policy depends on: • Industry: Regulated vs Non-regulated • Type of company: Public vs Private … Risk appetite and tolerance"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "E",
+   "q": "Which are benefits of BCM listed in L03? (tick all that apply)",
+   "o": [
+    "Prevents potential issues before they materialise",
+    "Reduces impact to an acceptable level",
+    "Breaks silos and encourages an enterprise governance approach",
+    "Creates or increases a competitive advantage",
+    "Eliminates all risks"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "BCM reduces risk to an ACCEPTABLE level; it cannot eliminate all risks.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 10,
+     "quote": "Prevents potential issues before they materialise Reduces impact to acceptable level Reduces risks to acceptable level Breaks silos and encourage enterprise governance approach"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which activities are part of Step 2 (Implement BCM programme)? (tick all that apply)",
+   "o": [
+    "Taking inventory of critical systems and services",
+    "Performing business impact analysis",
+    "Communicate",
+    "Training",
+    "Appointing the senior executive accountable for BCM"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Appointing the accountable senior executive is Step 1 (governance). Exercise is also part of Step 2.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 31,
+     "quote": "Taking inventory of critical systems and services … Performing business impact analysis"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which are policy considerations for applicable regulations, frameworks and guidelines? (tick all that apply)",
+   "o": [
+    "International standards (ISO 22301, BS 25999-1)",
+    "Frameworks (COBIT 5)",
+    "Guidelines (BCMI / BCI)",
+    "Company policy",
+    "Social media terms of service"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Next, determine scope (enterprise-wide, geographical, business units, timezone).",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 27,
+     "quote": "International standards: ISO22301, BS25999-1 • Frameworks: CoBIT 5"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which are REGULATORS' perspectives on BCM? (tick all that apply)",
+   "o": [
+    "A robust and reliable environment",
+    "Safeguarding public interest",
+    "Products supported through their lifecycle",
+    "The ecosystem remains viable and healthy"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "Product support through the lifecycle is the customers' view; a viable ecosystem is the stakeholders' view.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 9,
+     "quote": "Robust and reliable environment • Safeguarding public interest"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which are key BCM maintenance activities? (tick all that apply)",
+   "o": [
+    "Regular review of the BCP for changes in strategy, market and socio-political situation",
+    "Increasing awareness and familiarity for all staff",
+    "Regular testing and exercise",
+    "Monitoring performance",
+    "Freezing the plan so it never changes"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Maintenance is often the most challenging BCM task.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 40,
+     "quote": "Regular review of BCP considering changes in business strategy, market presence and socio-political situation"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which are in scope for the PREMISES resource? (tick all that apply)",
+   "o": [
+    "Own premises",
+    "Leased premises",
+    "Hosted infrastructure",
+    "Employee homes",
+    "Competitors' offices"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Backup premises and outsourced premises are also in scope.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 44,
+     "quote": "Own premises • Leased premises • Hosted infrastructure … Employee homes"
+    }
+   ]
+  },
+  {
+   "t": "L03",
+   "d": "M",
+   "q": "Which ISO 22301 clauses describe the PLAN component (per L03)? (tick all that apply)",
+   "o": [
+    "Clause 4 (context)",
+    "Clause 5 (leadership)",
+    "Clause 6 (planning objectives)",
+    "Clause 7 (support)",
+    "Clause 8 (operation)"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Clause 8 = Do, 9 = Check, 10 = Act.",
+   "src": [
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 17,
+     "quote": "Describes the Plan component. Introduces requirements to establish context of BCMS."
     }
    ]
   },
@@ -1849,6 +2564,253 @@
    ]
   },
   {
+   "t": "L04",
+   "d": "M",
+   "q": "Why conduct BCP/DRP tests and exercises? (tick all that apply)",
+   "o": [
+    "Provide assurance to Board, management, regulators and customers",
+    "Validate the plans and their underlying assumptions",
+    "Detect areas of ineffectiveness and trigger required changes",
+    "Eliminate inter-plan confusion and duplication",
+    "Guarantee that no future incident will occur"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also: generates confidence, familiarises parties, demonstrates competence, ensures adequacy of scope.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 20,
+     "quote": "Provide assurance to Board, management, regulators and customers. … Validates the BCP/DRP plans and the underlying assumptions"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Per L04, a BCP/DRP exercise should be: (tick all that apply)",
+   "o": [
+    "Realistic, appropriate and carefully planned",
+    "Not disruptive to business-critical functions",
+    "Aligned to specific objectives",
+    "Documented for post-test debrief",
+    "Run without any planning to maximise surprise"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "And not carried out to assign blame.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 23,
+     "quote": "Realistic, appropriate and carefully planned • Not resulting in disruption to business critical functions • Aligned to specific objectives • Documented for post-test debrief"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Which are characteristics of effective BCM metrics? (tick all that apply)",
+   "o": [
+    "Relevant to governance and/or management function",
+    "At the right level of depth",
+    "Can be collected efficiently",
+    "Measurable",
+    "As many metrics as possible"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Trending metrics over time also gives early warning.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 6,
+     "quote": "Relevant to governance and/or management function • At the right level of depth • Can be collected efficiently • Measurable"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "E",
+   "q": "Which belong in the 'Introduction' section of the BCP structure? (tick all that apply)",
+   "o": [
+    "Background & Overview",
+    "Purpose & Scope",
+    "Organisational structure, including roles and responsibilities",
+    "List of ICT systems/applications/services",
+    "Call tree"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Exclusions are also in the Introduction. The call tree is under 'Other useful information'.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 32,
+     "quote": "1. Background & Overview 2. Purpose & Scope 3. Organisational Structure, including roles and responsibilities 4. List of ICT systems/applications/services 5. Exclusions"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Which items are listed under 'Other useful information' in the BCP? (tick all that apply)",
+   "o": [
+    "Command centre location and support list",
+    "Recovery team",
+    "Alternate site location & facilities",
+    "Call tree",
+    "Revision history"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Internal/external contact lists and the recovery progress log are also listed. Revision history is its own section.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 33,
+     "quote": "1. Command Centre Location and Support List 2. Recovery Team 3. Alternate Site Location & Facilities 4. Call Tree"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Each BCP planning scenario covers: (tick all that apply)",
+   "o": [
+    "Recovery strategy",
+    "Recovery process and procedures",
+    "Recovery assumptions",
+    "Return to normal operations",
+    "Sign-off signatures"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Sign-off is a separate section near the front of the BCP.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 32,
+     "quote": "o Recovery Strategy o Recovery Process and Procedures o Recovery Assumptions o Return to Normal Operations"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "In the SGX case, which channels were used to announce the market halt? (tick all that apply)",
+   "o": [
+    "Website message",
+    "SMS to all SGX members",
+    "SGXNet announcement",
+    "Twitter message",
+    "Fax to every investor"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Note how long the announcements took — communication is part of the BCM response.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 11,
+     "quote": "3.05pm: SGX posts a website message formally announcing the market halt"
+    },
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 12,
+     "quote": "3.22pm: An SMS is sent to all SGX members about the market halt … 4.19pm: A Twitter message on the market halt is sent"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Which are part of the BCM verification process? (tick all that apply)",
+   "o": [
+    "Management review (review suitability)",
+    "Verify compliance with laws, standards, frameworks",
+    "Audit (independent assessment)",
+    "Self-assessment (ongoing assessment)",
+    "A marketing campaign"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Identifying changes needed for continual improvement completes the cycle.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 24,
+     "quote": "Review suitability … Independent assessment … Ongoing assessment"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "H",
+   "q": "Which statements about RTO and RPO (L04) are correct? (tick all that apply)",
+   "o": [
+    "Lower RTO means quicker recovery but higher cost and effort",
+    "RPO is crucial for determining backup frequency",
+    "Determining RPO depends on data volume and whether data can be recreated",
+    "RTO is the maximum tolerable period in which data might be lost"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The last statement describes RPO, not RTO.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 8,
+     "quote": "Lower RTO means quicker recovery requirement, but the cost and effort increase as well. … RPO is crucial for determining the frequency of backup. … Determining RPO depends on the volume of data generated and the nature of those data"
+    }
+   ]
+  },
+  {
    "t": "L05",
    "d": "E",
    "q": "For the DR lifecycle, this module follows which reference?",
@@ -2278,6 +3240,247 @@
      "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
      "page": 27,
      "quote": "Considerations: • Medium o Tape, Hard drive, hardcopy • Frequency o Hourly, Daily, Weekly, quarterly, yearly • Location o Onsite, offsite, cloud • Security o Encryption, access controls"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "Which are criteria for contingency plan activation? (tick all that apply)",
+   "o": [
+    "Safety of personnel and/or extent of damage to the facility",
+    "Extent of damage to the system",
+    "Criticality of the system to the organisation's mission",
+    "Anticipated duration of disruption",
+    "Amount of media interest"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Only ONE criterion needs to be met to trigger activation.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 48,
+     "quote": "Safety of personnel and/or extent of damage to the facility • Extent of damage to system • Criticality of the system to the organization's mission … Anticipated duration of disruption"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "What should a damage assessment cover for the Crisis Management Team? (tick all that apply)",
+   "o": [
+    "Cause of the disruption or emergency",
+    "Potential escalation of the disruption",
+    "Status of physical infrastructure",
+    "Estimated time to restore services",
+    "Identity of the attacker"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also inventory/condition of IT equipment, damage to IT systems or data, and replacements needed.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 45,
+     "quote": "Cause of disruption or emergency • Potential escalation of disruption or emergency • Status of physical infrastructure (building, data centre, etc) … Estimated time to restore services."
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "H",
+   "q": "Which are RECONSTITUTION-phase considerations? (tick all that apply)",
+   "o": [
+    "Testing applications and services to ensure full functionality",
+    "Backing up data on the contingency system and uploading to the restored system",
+    "Shutting down the contingency system",
+    "Arranging for recovery personnel to return to the original facility",
+    "Declaring the incident and activating the plan"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Declaring the incident belongs to the Notification/Activation phase.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 57,
+     "quote": "Testing applications and services to ensure full functionality • Backing up data on the contingency system and uploading to restored system • Shutting down the contingency system … Arranging for recovery personnel to return to the original facility."
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "Which are common PREVENTIVE controls in L05? (tick all that apply)",
+   "o": [
+    "Multiple processing sites",
+    "Multiple teams",
+    "Redundant supply of utilities",
+    "High availability systems (clustering, fail-over)",
+    "Post-incident lessons learned"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Backup, administrative and technical controls are also listed. Lessons learned happens after an incident.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 24,
+     "quote": "o Multiple processing sites o Multiple teams o Redundant supply of utilities o High availability systems"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "Which supporting information should be kept current during plan maintenance? (tick all that apply)",
+   "o": [
+    "Software licenses",
+    "Outsourcing contracts",
+    "Alternate site contracts",
+    "MOUs and SLAs",
+    "Staff lunch menus"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also interconnection agreements, training materials, test results and system architecture.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 73,
+     "quote": "Software licenses • Outsourcing contracts • Alternate site contracts • Interconnection agreement • MOUs and SLAs"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "Where can approved copies of the plan be made available? (tick all that apply)",
+   "o": [
+    "Team site (groupware)",
+    "SharePoint",
+    "Shared folder (e.g. Dropbox, in-house file server)",
+    "Hardcopy in relevant employees' desks",
+    "A public website anyone can edit"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Mobile apps are also listed.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 75,
+     "quote": "Team site (Groupware) - Sharepoints • Shared folder - Dropbox, Syncplicity, In-house file-server • Hardcopy in relevant employees desks/drawer"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "H",
+   "q": "Which are RECOVERY-phase procedure steps? (tick all that apply)",
+   "o": [
+    "Obtain access to damaged facilities",
+    "Notify customers, service providers, suppliers",
+    "Obtain temporary work space",
+    "Activate alternate premise(s)",
+    "Shut down the contingency system"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Shutting down the contingency system is a reconstitution step.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 52,
+     "quote": "Obtain procedure to get access to damaged facilities o Notify customers, service providers, suppliers o Obtain temporary work space o Activate alternate premise(s)"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "Which REGULATOR changes should trigger a plan update? (tick all that apply)",
+   "o": [
+    "New regulation",
+    "New guidelines",
+    "New regulators",
+    "Amended regulations",
+    "New office plants"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "IT and business changes (e.g. disruptive inventions, strategy changes) also trigger updates.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 70,
+     "quote": "New regulation … New guidelines … Amended regulations"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "What does the BIA's 'Identify Impact & Outage Times' step include? (tick all that apply)",
+   "o": [
+    "Estimate impact for each system",
+    "Estimate the Maximum Tolerable Downtime (MTD)",
+    "Define RTO and RPO",
+    "Identify owners, custodians and operators"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Identifying owners/custodians belongs to 'Identify Critical IT Resources'.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 17,
+     "quote": "Estimate Maximum Tolerable Downtime (MTD) … Define Recovery Time Objective (RTO) & Recovery Point Objective (RPO)"
     }
    ]
   },
@@ -2760,6 +3963,245 @@
    ]
   },
   {
+   "t": "L06",
+   "d": "M",
+   "q": "Which are ENISA-recommended mitigations against phishing? (tick all that apply)",
+   "o": [
+    "Educate staff to identify phishing emails",
+    "Use specialised security e-mail gateways",
+    "Avoid over-sharing personal information on social media",
+    "Enable 2-FA",
+    "Reuse one strong password across services"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "ENISA says to use a strong and UNIQUE password for every online service.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 16,
+     "quote": "Educate staff to identify phishing emails. … Enable 2-FA authentication • Use strong and unique password for every online service."
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Which statements about INSIDER threat agents are in L06? (tick all that apply)",
+   "o": [
+    "Typically current or former employees",
+    "Can be intentional or inadvertent",
+    "Primarily aim at financial gain",
+    "Are mostly funded by nation states"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Many inadvertent insider actions come from being victims of spear phishing.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 23,
+     "quote": "typically current or former employees … Can be intentional (dissatisfied employees) or inadvertent (victimized employees) … Insiders primarily aim at financial gain"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Which are mitigations for malware per ENISA? (tick all that apply)",
+   "o": [
+    "Malware detection on all inbound/outbound channels",
+    "Regular update of malware mitigation controls",
+    "Regular monitoring of antivirus tests",
+    "Security policies specifying processes for infections",
+    "Disabling logging to save storage"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also integrate malware detection with security incident management and share malware information.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 10,
+     "quote": "Malware detection should be implemented for all inbound/outbound channels … Regular update of malware mitigation controls and adaptation to new attack methods/vectors."
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Which are WEB-BASED attack trends in ETL? (tick all that apply)",
+   "o": [
+    "Drive-by downloads rely on JavaScript",
+    "Web browser vulnerabilities are still a big threat",
+    "Water-holing attacks are on the rise",
+    "Popular messaging apps suffered attacks to break encryption",
+    "Web-based attacks have disappeared"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Mitigations include browser sandboxing, patching and web traffic filtering.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 11,
+     "quote": "Popular messaging apps suffered web-based attacks to break encryption … Drive-by downloads relies on JavaScript … Water-holing attacks are on the rise"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Which are WEB APPLICATION attack trends in ETL? (tick all that apply)",
+   "o": [
+    "SQL injection is still an important threat",
+    "Cross-Site Scripting (XSS) is on the rise",
+    "CMS vulnerabilities are an important source of attacks",
+    "Government and IT company websites are preferred targets",
+    "Only mobile apps are targeted"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Mitigations include a WAF, input verification and regular vulnerability scanning.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 13,
+     "quote": "SQL injection is still an important threat • Cross Site Scripting (XSS) on the rise"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "E",
+   "q": "Which are mitigations against SPAM? (tick all that apply)",
+   "o": [
+    "Block executables and macros in e-mail attachments",
+    "Disable automatic execution of code and macros",
+    "Educate users on social engineering pitfalls",
+    "Use AI to detect spam",
+    "Whitelist all attachments"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Spammers now hide macros in password-protected archives to bypass filters.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 18,
+     "quote": "Block executables and macros in e-mail attachments • Disable automatic execution of code, macros, etc. • Educate users on pitfalls of social engineering • Use of AI to detect spam"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Which statements describe NATION STATE threat agents? (tick all that apply)",
+   "o": [
+    "Funded for cyber espionage or cyber combat",
+    "Third most active threat agent (over 20% of incidents)",
+    "Long use of zero-day vulnerabilities",
+    "Invest heavily in cyber-attack tools",
+    "Low capability and low motivation"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Low capability and motivation describes script kiddies.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 24,
+     "quote": "Invests heavily in cyber-attack tools … Evidence that they long used zero-day vulnerabilities"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "E",
+   "q": "Which are malware and attack types listed from ISACA CSX? (tick all that apply)",
+   "o": [
+    "Virus",
+    "Worm",
+    "Trojan horse",
+    "Rootkit",
+    "Firewall"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "A firewall is a control, not an attack type.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 31,
+     "quote": "Virus Worm Trojan horse Botnet Spyware Adware … Ransomware Keylogger Rootkit APT Backdoor Brute force"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "H",
+   "q": "Which attack-attribute definitions are correct? (tick all that apply)",
+   "o": [
+    "Attack vector: a path used to gain access to the target",
+    "Payload: a container for the exploit",
+    "Exploit: a piece of code taking advantage of a vulnerability",
+    "Vulnerability: a container for the payload"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A vulnerability is a weakness in the system.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 29,
+     "quote": "Attack vector: A path used to gain access to target … Exploit: A piece of code taking advantage of vulnerability"
+    }
+   ]
+  },
+  {
    "t": "L08",
    "d": "E",
    "q": "What are the 4 penetration testing phases in ISACA CSX Fundamentals?",
@@ -3206,6 +4648,274 @@
    ]
   },
   {
+   "t": "L08",
+   "d": "M",
+   "q": "Which techniques are used in the pen-test DISCOVERY phase? (tick all that apply)",
+   "o": [
+    "NetBIOS enumeration",
+    "Banner grabbing",
+    "Dumpster diving and physical walk-throughs",
+    "WHOIS queries",
+    "Writing the final risk-rated report"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The report is produced in the Reporting phase.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 9,
+     "quote": "NetBIOS enumeration for system information … Dumpster diving and physical walk-throughs"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 8,
+     "quote": "Banner grabbing for application and service information"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "Which are stages of the Lockheed Martin Cyber Kill Chain? (tick all that apply)",
+   "o": [
+    "Reconnaissance",
+    "Weaponization",
+    "Installation",
+    "Command & Control (C2)",
+    "Discovery",
+    "Data Exfiltration"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Discovery is a pen-test phase; Data Exfiltration is an APT life-cycle phase.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 14,
+     "quote": "Stage #1: Reconnaissance"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 15,
+     "quote": "Stage #2: Weaponization"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 18,
+     "quote": "Stage #5: Installation"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 19,
+     "quote": "Stage #6: Command & Control (C2)"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "H",
+   "q": "Which are among the 10 stages of the APT life cycle? (tick all that apply)",
+   "o": [
+    "Conduct background research",
+    "Execute initial attack",
+    "Establish foothold",
+    "Move laterally to new systems",
+    "Weaponization"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Weaponization is a Kill Chain stage, not an APT life-cycle stage.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 29,
+     "quote": "#1 Conduct background research #2 Execute initial attack"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 30,
+     "quote": "#3 Establish foothold"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 31,
+     "quote": "#6 Move laterally"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "What happens in the pen-test PLANNING phase? (tick all that apply)",
+   "o": [
+    "Goals are set",
+    "Scope is defined",
+    "The test is approved and documented by management",
+    "Vulnerabilities are exploited to gain access"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Exploitation happens in the Attack phase.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 8,
+     "quote": "Goals are set, scope is defined, and the test is approved and documented by management"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "Which social engineering techniques are used during Discovery? (tick all that apply)",
+   "o": [
+    "Posing as a help desk agent and asking for passwords",
+    "Posing as a user and calling the help desk to reset passwords",
+    "Sending phishing emails",
+    "Exploiting a buffer overflow"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A buffer overflow is a technical exploit, used in the Attack phase.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 9,
+     "quote": "Social engineering, such as posing as a help desk agent and asking for passwords"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "What does the final pen-test report do? (tick all that apply)",
+   "o": [
+    "Describe the vulnerabilities identified",
+    "Assign risk ratings",
+    "Provide mitigation plans",
+    "Fix every vulnerability automatically"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Reporting runs alongside all phases; logs are kept during Discovery and Attack.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 10,
+     "quote": "describe the vulnerabilities identified, assign risk ratings and provide mitigation plans"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "Why are APTs called PERSISTENT? (tick all that apply)",
+   "o": [
+    "They are long-term projects focused on reconnaissance",
+    "If one attack is blocked, they respond with new attacks",
+    "They keep footholds using stolen credentials even after malware is removed",
+    "They give up after the first failed attempt"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Persistence is one of four APT characteristics (with well-researched, sophisticated, stealthy).",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 26,
+     "quote": "If one attack is successfully blocked, the perpetrators respond with new attacks … even after the malware is detected and removed, via post-malware use of user credentials"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "Why are APTs called SOPHISTICATED? (tick all that apply)",
+   "o": [
+    "Designed to exploit multiple vulnerabilities in a single attack",
+    "Use an extensive framework of attack modules",
+    "Use custom or dynamically generated malware",
+    "Only use well-known off-the-shelf malware"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "This is why signature-based defences struggle.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 25,
+     "quote": "APT attacks are often designed to exploit multiple vulnerabilities in a single attack … Use custom or dynamically generated malware"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "H",
+   "q": "How do APTs get data out of the victim environment? (tick all that apply)",
+   "o": [
+    "Gather data into an archive, then compress and encrypt it",
+    "Use FTP if outbound FTP is unrestricted",
+    "Use custom transfer tech on standard and non-standard ports",
+    "Always print documents and post them"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Encryption hides contents from DPI and DLP.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 32,
+     "quote": "gather the data into an archive and then compress and encrypt the archive … custom data transfer technologies operating on standard and nonstandard ports"
+    }
+   ]
+  },
+  {
    "t": "L09",
    "d": "E",
    "q": "NIST SP 800-61r2 defines an EVENT as:",
@@ -3606,6 +5316,255 @@
      "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
      "page": 31,
      "quote": "• Incident Management & Response is a cross-functional process. • It involves tight communication with other departments such as: o Senior Management o Information/IT Security o IT Support o Legal o Public Relation / Communication o Human Resource o Business Continuity Planning o Facilities Management"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which are elements of an IR PLAN? (tick all that apply)",
+   "o": [
+    "Mission",
+    "Strategies and goals",
+    "Senior management approval",
+    "Metrics for measuring capability and effectiveness",
+    "Step-by-step malware removal commands"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Detailed steps belong in IR procedures, not the plan.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 14,
+     "quote": "o Mission o Strategies and goals o Senior management approval o Organisational approach to incident response"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which considerations apply when choosing an IR team model? (tick all that apply)",
+   "o": [
+    "The need for 24/7 availability",
+    "Full-time vs part-time",
+    "Employee morale",
+    "Cost",
+    "Staff expertise",
+    "Office décor"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "e": "All five are listed in L09.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 27,
+     "quote": "o The need for 24/7 availability … o Employee morale … o Staff expertise"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Having an IR capability allows organisations to: (tick all that apply)",
+   "o": [
+    "Respond to incidents systematically",
+    "Minimise loss or theft of information and disruption",
+    "Use lessons from incidents to prepare for future events",
+    "Deal properly with legal issues",
+    "Guarantee that no incident will ever occur"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "It also helps them comply with relevant laws and regulations.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 9,
+     "quote": "Respond to incidents in a systematically manner … Minimise the loss or theft of information and disruptions caused by incidents"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "What does an IR POLICY do? (tick all that apply)",
+   "o": [
+    "Defines events considered as incidents",
+    "Establishes the organisational structure for incident response",
+    "Defines roles and responsibilities",
+    "Lists requirements for reporting incidents",
+    "Gives step-by-step forensic commands"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Detailed steps belong in IR procedures.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 10,
+     "quote": "Defines events considered as incidents o Establishes organisational structure for incident response o Defines roles and responsibilities o List requirements for reporting incidents"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "What should be planned in advance for media communication? (tick all that apply)",
+   "o": [
+    "Relevant and important media identified",
+    "A point of contact in the organisation",
+    "Training key executives to speak with media",
+    "Focus on Who, Where, When, What, Why, How",
+    "Let any employee answer journalists"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "A clear, consistent information-management procedure is also needed.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 17,
+     "quote": "Relevant and important media identified o Point of contact in the organisation (PoC) … Training of key executives to speak with media"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Beyond regulators and law enforcement, who else should IR consider communicating with? (tick all that apply)",
+   "o": [
+    "Internet Service Provider (ISP)",
+    "Owner and ISP of the attackers' IP segment",
+    "Vendors and service providers",
+    "Affected external parties (customers, partners)",
+    "Competitors' sales teams"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Other IR teams with agreements are also listed.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 20,
+     "quote": "Internet Service Provider (ISP) o Owner and ISP of IP segment of attackers o Vendors and service providers"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "Which services does the IR team provide in 'peaceful time'? (tick all that apply)",
+   "o": [
+    "Intrusion detection",
+    "Advisory distribution",
+    "Education and awareness",
+    "Information sharing",
+    "Eradication"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Eradication happens during an incident.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 32,
+     "quote": "Intrusion Detection … Advisory Distribution"
+    },
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 12,
+     "quote": "information sharing"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which should be considered before OUTSOURCING incident response? (tick all that apply)",
+   "o": [
+    "Current and future quality of work",
+    "Division of responsibilities",
+    "Sensitive information disclosed to the service provider",
+    "Lack of organisation knowledge",
+    "The provider's logo design"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also correlation, handling multiple locations, and in-house first-responder skills.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 28,
+     "quote": "Current and future quality of work … Division of responsibilities … Sensitive information disclosed to service provider … Lack of organisation knowledge"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which statements about NIST SP 800-61 rev3 are correct? (tick all that apply)",
+   "o": [
+    "Published in April 2025, superseding rev2",
+    "Aligns IR with NIST CSF 2.0",
+    "Focuses less on detailed incident-handling procedures than rev2",
+    "Removes incident response from risk management"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Rev3 positions IR as an integral part of cybersecurity risk management.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 33,
+     "quote": "Published in April 2025, superseding rev2. • Aligns IR with NIST Cybersecurity Framework (CSF) 2.0. … Focuses less on detailed incident-handling procedures than rev2."
     }
    ]
   },
@@ -4158,6 +6117,319 @@
    ]
   },
   {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are sources of precursors and indicators? (tick all that apply)",
+   "o": [
+    "Alerts (IDS/IPS, SIEM)",
+    "Logs (OS, appliances, databases)",
+    "Publicly available information (vendor sites, ISACs)",
+    "People (internal staff, external parties)",
+    "Competitors' press releases"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The four sources: alerts, logs, publicly available information, people.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 22,
+     "quote": "Security Incident and Event Management (SIEM) … Publicly Available Information:"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are common attack vectors listed in L10? (tick all that apply)",
+   "o": [
+    "External/Removable media",
+    "Attrition",
+    "Impersonation",
+    "Loss or theft of equipment",
+    "Scheduled maintenance windows"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also Web, Email and Improper Usage.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 17,
+     "quote": "External/Removable Media, such as USB thumb drives, etc. o Attrition, such as DDoS, etc. … Loss or Theft of Equipment, such as theft of notebook, etc."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which activities help PREVENT incidents (Preparation phase)? (tick all that apply)",
+   "o": [
+    "Risk assessments",
+    "Host security (hardening)",
+    "Network security (segmentation)",
+    "User awareness and training",
+    "Ignoring low-severity alerts"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Malware prevention is also listed.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 14,
+     "quote": "Risk Assessments … Each workstation, server and appliances should be hardened"
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 15,
+     "quote": "Good network design and segmentation based on level of risk"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What should an organisation have ready to PREPARE for incident response? (tick all that apply)",
+   "o": [
+    "A war room for central communications",
+    "Secure storage facilities for evidence",
+    "Digital forensics workstation and backup devices",
+    "Images of clean OS and application installations",
+    "Unpatched spare servers exposed to the internet"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Many teams also keep a jump kit.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 12,
+     "quote": "War room for central communications b. Secure storage facilities for security evidence … Digital forensics workstation and backup devices to create disk images"
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 13,
+     "quote": "Access to images of clean OS and application installations"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Why is detecting incidents challenging? (tick all that apply)",
+   "o": [
+    "Incidents may be detected at varying levels of detail",
+    "The number of incidents/alerts is high",
+    "Deep, specialised knowledge and experience are needed",
+    "Systems generate too few logs to analyse"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Fatigue and loss of morale are real risks for small teams.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 18,
+     "quote": "Incidents may be detected due to varying levels of details … Number of Incidents are high"
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 19,
+     "quote": "Deep, specialised technical knowledge and extensive experience are needed"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are INDICATORS (incident taking place or happened)? (tick all that apply)",
+   "o": [
+    "Unusual or unauthorised files discovered on a server",
+    "IDS alerts indicating suspicious activity",
+    "Multiple failed logins followed by a successful login from an unfamiliar location",
+    "A hacktivist group threatening to attack"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A threat from a hacktivist group is a PRECURSOR.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 20,
+     "quote": "Unusual or unauthorised files discovered on a server. … Intrusion Detection System (IDS) alerts indicating suspicious activity."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are PRECURSORS (incident may occur in future)? (tick all that apply)",
+   "o": [
+    "A newly disclosed vulnerability affecting your systems",
+    "A hacktivist group threatening to attack the organisation",
+    "Intelligence that attackers are targeting your industry",
+    "An IDS alert indicating suspicious activity"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "An IDS alert is an INDICATOR.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 20,
+     "quote": "A hacktivist group threatening to attack the organisation. … Intelligence indicating that attackers are targeting the organisation's industry."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What does NIST recommend to make incident analysis easier? (tick all that apply)",
+   "o": [
+    "Profile networks and systems",
+    "Understand normal behaviours",
+    "Keep all host clocks synchronised",
+    "Maintain and use a knowledge base",
+    "Turn off logging to reduce noise"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "See pg. 29–30 of NIST SP 800-61r2 for more.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 24,
+     "quote": "Profile Networks and Systems … Understand Normal Behaviours"
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 25,
+     "quote": "Maintain and Use a Knowledge Base (KB) of Information"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are RECOVERY actions? (tick all that apply)",
+   "o": [
+    "Restoring systems from clean backups",
+    "Rebuilding systems from scratch",
+    "Replacing infected files with clean versions",
+    "Patching vulnerabilities",
+    "Disconnecting the affected network segment"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Disconnecting the segment is CONTAINMENT.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 40,
+     "quote": "Restoring systems from clean backups; rebuilding systems from scratch; replacing infected files with clean versions; patching vulnerabilities"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "How can collected incident data be used? (tick all that apply)",
+   "o": [
+    "Identify systemic security weaknesses and incident trends",
+    "Input to the risk assessment process",
+    "Measure the success of the IR team",
+    "Justify investment in IR resources and technology",
+    "Publicly name individual employees"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Example metrics: number of incidents, time/resources per incident.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 45,
+     "quote": "Identifying systemic security weaknesses and threats, as well as changes in incident trends. … As inputs to the risk assessment process. … Measuring the success of the IR team."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "Which are ERADICATION actions? (tick all that apply)",
+   "o": [
+    "Removing malware",
+    "Disabling breached user accounts",
+    "Identifying ALL affected hosts so remediation is complete",
+    "Reconnecting the isolated network"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Reconnecting the network is RECOVERY.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 40,
+     "quote": "Removing malware; disabling breached user accounts … important to identify ALL affected hosts"
+    }
+   ]
+  },
+  {
    "t": "L11",
    "d": "E",
    "q": "In which exercise type do participants DISCUSS their responses to a scenario, with 'injects' building complexity?",
@@ -4598,6 +6870,247 @@
      "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
      "page": 24,
      "quote": "The Code was formulated using international standards and best practices including the ISO / IEC 27011 and IETF Best Current Practices."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which are products of the Concept Development Meeting (CDM)? (tick all that apply)",
+   "o": [
+    "Draft initial exercise scenario (high level)",
+    "Selected exercise style",
+    "Defined exercise objectives",
+    "Identification of logistical needs",
+    "Finalised ROE signed by leadership"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The signed, finalised ROE is a product of the Final Planning Meeting.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 31,
+     "quote": "Draft initial exercise scenario (high level) o Selected style (table top, hybrid, full live) o Defined exercise objectives … Identification of logistical needs"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "E",
+   "q": "Which are valid ways to deliver exercise injects? (tick all that apply)",
+   "o": [
+    "Emails, phone calls, text messages",
+    "Social media posts and blogposts",
+    "Messages from role-played actors",
+    "Radio, TV or newspaper articles",
+    "Changing live production firewall rules"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Combining realistic delivery methods makes the exercise more engaging.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 49,
+     "quote": "Emails, Phone calls, Text messages … Social media posts, blogposts … Message from role-played actors"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which are benefits of cyber security exercises? (tick all that apply)",
+   "o": [
+    "Increase awareness and understanding of threats",
+    "Evaluate overall incident preparedness",
+    "Identify deficiencies in the IR plan",
+    "Clarify roles and responsibilities during an incident",
+    "Guarantee regulatory approval"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also: validate IR plan and training, assess resources, get feedback, exercise decision-making.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 15,
+     "quote": "Increase awareness and understanding of threats • Evaluate your overall incident preparedness • Identify deficiencies in your IR plan"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which statements about exercise roles are correct? (tick all that apply)",
+   "o": [
+    "Planners should not include the team being exercised",
+    "The Exercise Control Group executes injects and drives the scenario",
+    "The Exercise Body includes the targeted system teams and the IRT",
+    "The ECG should be drawn from the Exercise Body"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The ECG should NOT be from the Exercise Body, to avoid a conflict of interest.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 44,
+     "quote": "should not include the team that will be … Should not be from the Exercise Body to avoid COI issue … The team that will have to response to the exercise scenario."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What does the MSEL contain? (tick all that apply)",
+   "o": [
+    "A chronological outline of simulated events (injects)",
+    "Key event descriptions participants respond to",
+    "Expected actions resulting from the events",
+    "Objectives that should be met",
+    "The exercise budget"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "It regulates simulated events and defines the schedule.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 35,
+     "quote": "Chronologically sequenced outline of the simulated events (i.e. injects) and key event descriptions … Contains a list of expected actions resulting from the events and objectives that should be met based on the events."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "Which are products of the Final Planning Meeting (FPM)? (tick all that apply)",
+   "o": [
+    "Finalised scenario with senior leader approval",
+    "Finalised ROE signed by appropriate leadership",
+    "Finalised exercise logistics plan",
+    "Review of changes affecting the GO/NO GO decision",
+    "Draft initial exercise scenario"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The draft initial scenario is a CDM product.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 40,
+     "quote": "Finalized exercise scenario with senior leader approval o Finalized ROE signed by appropriate leadership (network owner and RT lead) o Finalized exercise logistics plan"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which are sample exercise objectives in L11? (tick all that apply)",
+   "o": [
+    "Expose and correct weaknesses in cyber security systems",
+    "Expose and correct weaknesses in cyber operations policies and procedures",
+    "Enhance cyber awareness, readiness, and coordination",
+    "Develop contingency plans for surviving the loss of ICT systems",
+    "Identify which employee to blame"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Clear objectives let planners structure meaningful scenarios.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 42,
+     "quote": "Expose and correct weaknesses in cyber security systems … Enhance cyber awareness, readiness, and coordination … Develop contingency plans for surviving the loss of some or all ICT systems"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which are products of the Initial Planning Meeting (IPM)? (tick all that apply)",
+   "o": [
+    "Finalised exercise objectives",
+    "Defined exercise scenario",
+    "Understanding of the ROE",
+    "Dates for follow-on planning sessions and execution",
+    "Final GO/NO GO decision"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "GO/NO GO is decided at the FPM.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 33,
+     "quote": "Finalized exercise objectives o Defined exercise scenario o Develop understanding of the ROE"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which describe a CYBER RANGE? (tick all that apply)",
+   "o": [
+    "A controlled, interactive technology environment",
+    "Includes a Learning Management System",
+    "May use an orchestration layer linking curriculum to IT assets",
+    "Simulates the worst possible attacks on ICT infrastructure",
+    "A discussion-only exercise around a table"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "A discussion-only exercise is a table-top.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 7,
+     "quote": "A controlled, interactive technology environment … The range simulates the worst possible attacks on ICT infrastructure"
     }
    ]
   },
@@ -5143,6 +7656,340 @@
    ]
   },
   {
+   "t": "L12",
+   "d": "E",
+   "q": "Which are methods of media sanitisation / data destruction? (tick all that apply)",
+   "o": [
+    "Wiping/overwriting",
+    "Degaussing",
+    "Physical destruction",
+    "Shredding",
+    "Moving files to the recycle bin"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Deleting a file only removes pointers, so the data remains (data remanence).",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 16,
+     "quote": "Wiping/Overwriting … Degaussing … Physical Destruction"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are the 4 themes of ISO 27002:2022? (tick all that apply)",
+   "o": [
+    "Organisational",
+    "People",
+    "Physical",
+    "Technological",
+    "Operational"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "ISO 27002:2022 moved from 14 domains to 4 themes and 93 controls.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 41,
+     "quote": "(i) Organisational, (ii) People, (iii) Physical and (iv) Technological."
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are administrative security controls in L12? (tick all that apply)",
+   "o": [
+    "Separation of duties",
+    "Rotation of duties",
+    "Mandatory leave",
+    "Non-disclosure agreement",
+    "Degaussing"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also labelling, clearance and background checks. Degaussing is media sanitisation.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 8,
+     "quote": "3. Separation/Segregation of Duties (SOD) 4. Rotation of Duties 5. Mandatory Leave/ Forced Vacation 6. Non-Disclosure Agreement (NDA)"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "E",
+   "q": "Per the CISSP study guide, OPSEC deals with threats to: (tick all that apply)",
+   "o": [
+    "People",
+    "Data",
+    "Media",
+    "Hardware",
+    "Marketing campaigns"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "It is about managing threats to the CIA of the IT production environment.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 4,
+     "quote": "It is about people, data, media, hardware and its associated threats to the production environment."
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "E",
+   "q": "Which are part of sensitive information / media security? (tick all that apply)",
+   "o": [
+    "Labelling/marking",
+    "Handling",
+    "Storage",
+    "Retention",
+    "Advertising"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The fifth is media sanitisation or destruction of data.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 13,
+     "quote": "1. Labelling/Marking 2. Handling 3. Storage 4. Retention 5. Media Sanitisation or Destruction of Data"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Asset management in L12 consists of: (tick all that apply)",
+   "o": [
+    "Configuration management (hardening)",
+    "Baselining",
+    "Vulnerability management",
+    "Change management",
+    "Payroll management"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Changes must be tracked and auditable.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 19,
+     "quote": "1. Configuration Management (Hardening) … 3. Vulnerability Management"
+    },
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 20,
+     "quote": "4. Change Management"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are hardening (configuration management) actions? (tick all that apply)",
+   "o": [
+    "Disable unnecessary services",
+    "Remove extraneous programs",
+    "Enable security capabilities (firewalls, AV, IDS/IPS, logs)",
+    "Follow CIS recommended guidelines",
+    "Enable all default accounts"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Default accounts should be disabled or changed, not enabled.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 19,
+     "quote": "Disabling unnecessary services, removing extraneous programs, enabling security capabilities … Follow recommended guidelines from Center of Internet Security"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are Continuity of Operations measures in L12? (tick all that apply)",
+   "o": [
+    "Service Level Agreements (SLA)",
+    "Full, differential and incremental backups",
+    "RAID 0 / 1 / 5",
+    "High availability (failover clusters)",
+    "Mandatory leave"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Mandatory leave is an administrative security control.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 22,
+     "quote": "1. Service Level Agreements (SLA) … 2. Full, Differential, Incremental Backup"
+    },
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 23,
+     "quote": "4. High Availability (also known as Failover Cluster)"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Password administration generally includes: (tick all that apply)",
+   "o": [
+    "Defining a policy of acceptable passwords",
+    "Security controls for storage and transmission (e.g. encryption)",
+    "Secure password generation, distribution and replacement",
+    "Storing passwords in cleartext for easy recovery"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Avoid storing passwords in cleartext.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 28,
+     "quote": "Defining a policy of acceptable passwords … Securing passwords generation, distribution and replacement."
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are ISO 27002:2013 12.4 (Logging and monitoring) controls? (tick all that apply)",
+   "o": [
+    "Event logging",
+    "Protection of log information",
+    "Administrator and operator logs",
+    "Clock synchronisation",
+    "Capacity management"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Capacity management is 12.1.3.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 34,
+     "quote": "12.4.1 Event Logging … 12.4.2 Protection of log information … 12.4.3 Administrator and operator logs … 12.4.4 Clock synchronisation"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are ISO 27002:2013 12.1 (Operational procedures & responsibilities) controls? (tick all that apply)",
+   "o": [
+    "Documented operating procedures",
+    "Change management",
+    "Capacity management",
+    "Separation of development, testing and operational environments",
+    "Information backup"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Information backup is 12.3.1.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 31,
+     "quote": "12.1.1 Documented operating procedures … 12.1.2 Change management … 12.1.3 Capacity management"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Which are the five OPSEC steps in NIST SP 800-53r5? (tick all that apply)",
+   "o": [
+    "Identification of critical information",
+    "Analysis of threats",
+    "Analysis of vulnerabilities",
+    "Assessment of risks",
+    "Publication of findings"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The fifth step is application of appropriate countermeasures.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 43,
+     "quote": "(i) identification of critical information, (ii) analysis of threats, (iii) analysis of vulnerabilities, (iv) assessment of risks, and (v) application of appropriate counterme"
+    }
+   ]
+  },
+  {
    "t": "N834",
    "d": "E",
    "q": "NIST SP 800-34 Rev. 1 (announced in the July 2010 ITL Bulletin) replaced an earlier guide issued in:",
@@ -5538,6 +8385,245 @@
    ]
   },
   {
+   "t": "N834",
+   "d": "M",
+   "q": "Which are standard elements of a COOP plan? (tick all that apply)",
+   "o": [
+    "Order of succession",
+    "Delegation of authority",
+    "Devolution",
+    "Vital records management",
+    "Penetration testing"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Other elements include essential functions, continuity facilities, communications and reconstitution.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 22,
+     "quote": "Order of succession … Delegation of authority … Vital records management"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "Which are steps of the NIST SP 800-34 contingency planning process? (tick all that apply)",
+   "o": [
+    "Develop the contingency planning policy",
+    "Conduct the business impact analysis",
+    "Identify preventive controls",
+    "Create contingency strategies",
+    "Hire an external auditor"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The remaining steps: develop the ISCP, plan testing/training/exercises, plan maintenance.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 27,
+     "quote": "1. Develop the contingency planning policy; 2. Conduct the business impact analysis (BIA); 3. Identify preventive controls; 4. Create contingency strategies;"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "Which backup statements are correct per NIST SP 800-34? (tick all that apply)",
+   "o": [
+    "Incremental backups capture files changed since the last backup of any type",
+    "Differential backups capture files changed since the last full backup",
+    "A full backup captures all files on the disk or selected folder",
+    "Differential backups are always faster to take than incrementals"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Differentials take LONGER than incrementals as data since the last full backup grows each day.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 58,
+     "quote": "An incremental backup captures files that were created or changed since the last backup, regardless of backup type."
+    },
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 59,
+     "quote": "A differential backup stores files that were created or modified since the last full"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "Which statements about ISCPs and DRPs are correct? (tick all that apply)",
+   "o": [
+    "An ISCP recovers a system regardless of site or location",
+    "An ISCP can be activated at the current location or an alternate site",
+    "A DRP is primarily site-specific, moving operations to an alternate location",
+    "A DRP addresses every minor disruption, even without relocation"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The DRP only addresses disruptions that require relocation.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 24,
+     "quote": "An ISCP can be activated at the system's current location or at an alternate site. … a DRP is primarily a site-specific plan"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "E",
+   "q": "Which events does an Occupant Emergency Plan cover? (tick all that apply)",
+   "o": [
+    "Fire",
+    "Bomb threat",
+    "Chemical release",
+    "Medical emergency",
+    "Data breach notification"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Shelter-in-place procedures are also in the OEP.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 24,
+     "quote": "Such events include a fire, bomb threat, chemical release, domestic violence in the workplace, or a medical emergency."
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "By operational readiness, alternate sites are identified as: (tick all that apply)",
+   "o": [
+    "Cold sites",
+    "Warm sites",
+    "Hot sites",
+    "Mobile and mirrored sites",
+    "Shadow sites"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Progressing from basic to advanced readiness.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 0",
+     "path": "week 5/L05-NIST SP 800-34r0-Contingency Planning Guide.pdf",
+     "page": 28,
+     "quote": "sites may be identified as cold sites, warm sites, hot sites, mobile sites, and mirrored sites"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "H",
+   "q": "Which statements about MTD, RTO and RPO (SP 800-34r1) are correct? (tick all that apply)",
+   "o": [
+    "The RTO must normally be shorter than the MTD",
+    "RPO is not considered part of the MTD",
+    "RPO reflects how much data loss the process can tolerate",
+    "MTD is always shorter than RTO"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "RTO must fit within MTD.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 31,
+     "quote": "Unlike RTO, RPO is not considered as part of MTD. Rather, it is a factor of how much data loss the mission/business process can tolerate … the RTO must normally be shorter than the MTD"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "Per the ITL Bulletin, FIPS 199 categorises systems for which security objectives? (tick all that apply)",
+   "o": [
+    "Confidentiality",
+    "Integrity",
+    "Availability",
+    "Non-repudiation"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Each is rated low, moderate or high impact.",
+   "src": [
+    {
+     "doc": "NIST ITL Bulletin, July 2010",
+     "path": "week 1/L01-NIST ITL 2010 July Bulletin - Copy.pdf",
+     "page": 2,
+     "quote": "releasing information only to those authorized to have it … ensuring that information is not changed or destroyed … being able to access information when it is needed"
+    }
+   ]
+  },
+  {
+   "t": "N834",
+   "d": "M",
+   "q": "Which describe a crisis communications plan per SP 800-34r1? (tick all that apply)",
+   "o": [
+    "Often developed by the organisation responsible for public outreach",
+    "Designates specific individuals as the only authority to answer the public",
+    "May include templates for public press releases",
+    "Contains detailed server rebuild steps"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Server rebuild steps belong in the ISCP/DRP.",
+   "src": [
+    {
+     "doc": "NIST SP 800-34 Rev. 1",
+     "path": "week 5/L05-NIST SP 800-34r1-Contingency Planning Guide.pdf",
+     "page": 23,
+     "quote": "A crisis communications plan is often developed by the organization responsible for public outreach. … templates for public press releases"
+    }
+   ]
+  },
+  {
    "t": "N861",
    "d": "H",
    "q": "In NIST SP 800-61r2 functional impact categories, 'Medium' means:",
@@ -5752,6 +8838,189 @@
      "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
      "page": 31,
      "quote": "Incident Analysis Hardware and Software: … chain of custody forms, evidence storage bags and tags, and evidence tape, to preserve evidence for possible legal actions"
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Which are NIST criteria for choosing a containment strategy? (tick all that apply)",
+   "o": [
+    "Potential damage to and theft of resources",
+    "Need for evidence preservation",
+    "Service availability",
+    "Time and resources needed to implement the strategy",
+    "The attacker's nationality"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also effectiveness of the strategy and duration of the solution.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 44,
+     "quote": "Criteria for determining the appropriate strategy include: … Potential damage to and theft of resources … Need for evidence preservation … Service availability (e.g., network connectivity, services provided to external parties) … Time and resources needed to implement the strategy"
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Which questions should a lessons-learned meeting answer? (tick all that apply)",
+   "o": [
+    "Exactly what happened, and at what times?",
+    "How well did staff and management perform?",
+    "Were the documented procedures followed and adequate?",
+    "Which employee should be disciplined?"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Lessons learned is about improvement, not blame.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 47,
+     "quote": "Exactly what happened, and at what times? … How well did staff and management perform in dealing with the incident? Were the documented procedures followed? Were they adequate?"
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Besides incident response, which additional services do IR teams often provide? (tick all that apply)",
+   "o": [
+    "Monitoring intrusion detection sensors",
+    "Distributing security advisories",
+    "Educating users on security",
+    "Approving the annual IT budget"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Information sharing is another common service.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 29,
+     "quote": "Examples include monitoring intrusion detection sensors, distributing security advisories, and educating users on security."
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Which tools and resources does NIST suggest acquiring for incident handling? (tick all that apply)",
+   "o": [
+    "Contact lists",
+    "Encryption software",
+    "Network diagrams",
+    "Digital forensic software",
+    "Social media advertising credits"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Backup devices and port lists are also listed.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 52,
+     "quote": "Examples include contact lists, encryption software, network diagrams, backup devices, digital forensic software, and port lists."
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "E",
+   "q": "Which security software is valuable for detecting signs of incidents? (tick all that apply)",
+   "o": [
+    "Intrusion detection and prevention systems",
+    "Antivirus software",
+    "File integrity checking software",
+    "Spreadsheet software"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Using several types is highly recommended, as each may detect what others miss.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 52,
+     "quote": "Intrusion detection and prevention systems, antivirus software, and file integrity checking software are valuable for detecting signs of incidents."
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Which other groups may need to participate in incident handling? (tick all that apply)",
+   "o": [
+    "Management",
+    "IT support",
+    "Legal",
+    "Public affairs",
+    "Catering"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Information assurance and facilities management are also listed.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 29,
+     "quote": "including management, information assurance, IT support, legal, public affairs, and facilities management"
+    }
+   ]
+  },
+  {
+   "t": "N861",
+   "d": "M",
+   "q": "Which are NIST attack vectors? (tick all that apply)",
+   "o": [
+    "External/Removable Media",
+    "Attrition",
+    "Web",
+    "Email",
+    "Cloud billing"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also Impersonation, Improper Usage and Loss or Theft of Equipment.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 11,
+     "quote": "Attrition: An attack that employs brute force methods … Web: An attack executed from a website or web-based application. … Email: An attack executed via an email message or attachment."
     }
    ]
   },
@@ -5972,6 +9241,174 @@
      "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
      "page": 13,
      "quote": "3.13 corrective action action to eliminate the cause of a nonconformity and to prevent recurrence"
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "M",
+   "q": "Per ISO 22301, exercises can be used for: (tick all that apply)",
+   "o": [
+    "Validating policies, plans, procedures, training and equipment",
+    "Clarifying and training personnel in roles and responsibilities",
+    "Improving inter-organisational coordination and communications",
+    "Identifying gaps in resources",
+    "Obtaining ISO certification automatically"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "From the NOTE to the definition of 'exercise' (3.18).",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 14,
+     "quote": "Exercises can be used for: validating policies, plans, procedures, training, equipment, and inter-organizational agreements; clarifying and training personnel in roles and responsibilities; improving inter-organizational coordination and communications; identifying gaps in resources"
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "H",
+   "q": "Which are sub-clauses of ISO 22301 Clause 8 (Operation)? (tick all that apply)",
+   "o": [
+    "Business impact analysis and risk assessment",
+    "Business continuity strategy",
+    "Establish and implement business continuity procedures",
+    "Exercising and testing",
+    "Management review"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Management review is in Clause 9 (Performance evaluation).",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 5,
+     "quote": "8.2 Business impact analysis and risk assessment … 8.3 Business continuity strategy … 8.4 Establish and implement business continuity procedures"
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "M",
+   "q": "Terms commonly used to describe 'prioritized activities' include: (tick all that apply)",
+   "o": [
+    "Critical",
+    "Essential",
+    "Vital",
+    "Urgent",
+    "Optional"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "'Key' is also listed.",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 16,
+     "quote": "Terms in common use to describe activities within this group include: critical, essential, vital, urgent and key."
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "M",
+   "q": "Which are sub-clauses of ISO 22301 Clause 9 (Performance evaluation)? (tick all that apply)",
+   "o": [
+    "Monitoring, measurement, analysis and evaluation",
+    "Internal audit",
+    "Management review",
+    "Business impact analysis"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "BIA is in Clause 8.2.",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 5,
+     "quote": "9.1 Monitoring, measurement, analysis and evaluation … 9.2 Internal audit … 9.3 Management review"
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "H",
+   "q": "Which ISO 22301 definitions are correct? (tick all that apply)",
+   "o": [
+    "MTPD and MAO share the same definition",
+    "RPO can also be called 'maximum data loss'",
+    "Invocation is declaring BC arrangements need to be put into effect",
+    "MBCO is the maximum time a product can be unavailable"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "MBCO is the MINIMUM level of service acceptable during a disruption.",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 15,
+     "quote": "maximum acceptable outage MAO time it would take for adverse impacts"
+    },
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 17,
+     "quote": "NOTE Can also be referred to as \"maximum data loss\"."
+    },
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 14,
+     "quote": "act of declaring that an organization's business continuity arrangements need to be put into effect"
+    }
+   ]
+  },
+  {
+   "t": "ISO",
+   "d": "M",
+   "q": "Which are sub-clauses of ISO 22301 Clause 4 (Context of the organization)? (tick all that apply)",
+   "o": [
+    "Understanding of the organization and its context",
+    "Understanding the needs and expectations of interested parties",
+    "Determining the scope of the BCMS",
+    "Exercising and testing"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Exercising and testing is 8.5. Clause 4.4 is the BCMS itself.",
+   "src": [
+    {
+     "doc": "BS EN ISO 22301:2014",
+     "path": "week 3/L03-BS EN ISO 22301-2014.pdf",
+     "page": 5,
+     "quote": "4.1 Understanding of the organization and its context … 4.2 Understanding the needs and expectations of interested parties"
     }
    ]
   },
@@ -6248,6 +9685,203 @@
    ]
   },
   {
+   "t": "CCOP",
+   "d": "H",
+   "q": "Which must a CIIO do at least once every 12 months under the CCoP? (tick all that apply)",
+   "o": [
+    "Review the BCP and DRP",
+    "Review the Crisis Communication Plan",
+    "Conduct scenario-based cybersecurity exercises",
+    "Pen-test an IT-system CII",
+    "Conduct red/purple teaming"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Red/purple teaming and threat hunting are every 24 months; OT CII pen tests are also every 24 months.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 51,
+     "quote": "8.2.5 The CIIO shall review the BCP and DRP plans at least once every 12 months"
+    },
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 47,
+     "quote": "7.2.4 The CIIO shall review the Crisis Communication Plan at least once every 12 months"
+    },
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 37,
+     "quote": "for a CII which is an IT system - at least once every 12 months"
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "M",
+   "q": "The Cybersecurity Incident Response Plan must establish: (tick all that apply)",
+   "o": [
+    "A CIRT structure with roles, responsibilities and contacts",
+    "An incident reporting structure for obligations under the Act",
+    "Communication structures for timely escalation to the CIRT and senior management",
+    "Thresholds and procedures to activate the incident response",
+    "A marketing budget"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Engagement protocols with external parties (forensics vendors, law enforcement) are also required.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 45,
+     "quote": "A Cybersecurity Incident Response Team (\"CIRT\") structure … An incident reporting structure … Thresholds and procedures to activate the incident response and CIRT"
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "M",
+   "q": "The CCoP Crisis Communication Plan must: (tick all that apply)",
+   "o": [
+    "Establish a crisis communication team",
+    "Identify probable incident scenarios and courses of action",
+    "Identify target audiences and stakeholders",
+    "Identify spokespersons and technical experts",
+    "Let any staff member speak to media"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also primary/alternate communication modes, coordination structures and training.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 47,
+     "quote": "(a) Establishes a crisis communication team to be activated during a crisis; (b) Identifies probable cybersecurity incident scenarios and corresponding courses of action; … (d) Identifies spokespersons and technical experts"
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "M",
+   "q": "CCoP backup requirements include: (tick all that apply)",
+   "o": [
+    "Backups stored on devices not connected to any computer or the internet",
+    "Backups kept separate from the corresponding CII assets",
+    "Backups protected from unauthorised access, modification and deletion",
+    "Periodic testing of restoration",
+    "Keeping backups on the same server for speed"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The backup and restoration plan is reviewed at least every 12 months.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 50,
+     "quote": "backups are stored on devices that are not connected to any computer or to the internet and are separate from the corresponding CII assets, and are protected from unauthorised access, modification and deletion … The CIIO shall test the restoration of the backups periodically"
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "H",
+   "q": "Root-cause processes after an incident must address gaps in: (tick all that apply)",
+   "o": [
+    "The cybersecurity governance structure",
+    "Compliance with policies, standards and procedures",
+    "The audit process and remediation of audit findings",
+    "Employee social media profiles"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Clause 7.1.4 — structural, behavioural, managerial, technical or systemic factors.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 46,
+     "quote": "Gaps in the existing cybersecurity governance structure … Gaps in and failure to comply with policies, standards and procedures … Gaps in the audit process and the remediation of audit findings"
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "M",
+   "q": "Which BCP/DRP requirements are in CCoP 8.2? (tick all that apply)",
+   "o": [
+    "Plans for addressing different cybersecurity threat scenarios",
+    "Define RTO and RPO in the BCP",
+    "Exercise Kerberos TGT compromise recovery in DR exercises",
+    "Review the BCP and DRP at least every 12 months",
+    "Outsource the BCP to the regulator"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The goal is continuous delivery of essential services.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 51,
+     "quote": "8.2.2 The CIIO shall ensure that the BCP and DRP include plans for addressing different cybersecurity threat scenarios. … 8.2.3 The CIIO shall define the recovery time objective and recovery point objective in the BCP."
+    }
+   ]
+  },
+  {
+   "t": "CCOP",
+   "d": "M",
+   "q": "CCoP log requirements state that logs must: (tick all that apply)",
+   "o": [
+    "Use a consistent time source",
+    "Be protected against unauthorised access, modification and deletion",
+    "Be stored for at least 12 months after the event",
+    "Be deleted after 30 days"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Clause 6.1.4.",
+   "src": [
+    {
+     "doc": "CSA Cybersecurity Code of Practice for CII (2nd Ed.)",
+     "path": "week 1/CSA-CCoP_Second Edition - Copy.pdf",
+     "page": 42,
+     "quote": "(a) Use a consistent time source; (b) Are protected against unauthorised access, modification and deletion; (c) Are stored for a minimum period of 12 months"
+    }
+   ]
+  },
+  {
    "t": "CRTF",
    "d": "M",
    "q": "The Counter-Ransomware Task Force (CRTF) was chaired by:",
@@ -6450,6 +10084,182 @@
      "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
      "page": 10,
      "quote": "instances of double extortion"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Which agencies were represented on the Counter-Ransomware Task Force? (tick all that apply)",
+   "o": [
+    "Cyber Security Agency (CSA)",
+    "Monetary Authority of Singapore (MAS)",
+    "Singapore Police Force (SPF)",
+    "Infocomm Media Development Authority (IMDA)",
+    "Ministry of Health (MOH)"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also MHA, MCI, MINDEF and GovTech, with support from AGC.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 8,
+     "quote": "comprised senior representatives from CSA, the Monetary Authority of Singapore (MAS), the Ministry of Home Affairs (MHA), the Singapore Police Force (SPF)"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Why does the CRTF discourage paying ransoms? (tick all that apply)",
+   "o": [
+    "Paying fuels the ransomware problem",
+    "Paying does not guarantee decryption of the data",
+    "A payer may be identified as a 'soft' target and hit again",
+    "Paying is illegal in every circumstance"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Payment COULD contravene TSOFA depending on the facts — it is not automatically illegal.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 11,
+     "quote": "paying the ransom fuels the ransomware problem … paying the ransom does not guarantee the decryption of data … identified as a \"soft\" target and be hit again"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Which risk-mitigation measures does the CRTF recommend? (tick all that apply)",
+   "o": [
+    "Credential management (e.g. MFA on key assets)",
+    "Network segregation and segmentation",
+    "Backups kept offline or disconnected",
+    "Paying the ransom quickly to limit downtime"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Offline backups stop attackers deleting or encrypting them.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 13,
+     "quote": "Credential management. A sound credential management policy helps to prevent unauthorised access. … Network segregation and segmentation. … backups should be kept offline or disconnected from the organisation's network."
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "E",
+   "q": "Which two groups did the CRTF say deserve due attention? (tick all that apply)",
+   "o": [
+    "Critical Information Infrastructure (CII)",
+    "Small and Medium Enterprises (SMEs)",
+    "Individual gamers",
+    "Foreign embassies"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "CII are attractive targets; SMEs face resource constraints.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 13,
+     "quote": "Critical Information Infrastructure (CII), as these could be especially attractive targets … Small and Medium Enterprise (SMEs), which may be particularly vulnerable"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Which ecosystem-level interventions does the CRTF suggest? (tick all that apply)",
+   "o": [
+    "Protective Domain Name Service (pDNS) as 'upstream defence'",
+    "Supporting tools (e.g. firmware) to detect ransomware or defeat unauthorised encryption",
+    "Banning all cryptocurrency use"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "Pillar 1: Strengthen our Defences.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 14,
+     "quote": "Implementing Protective Domain Name Service (pDNS) … Supporting the development of tools (e.g. firmware) that could help detect ransomware, defeat unauthorised encryption"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Which statements about the CRTF ransomware kill chain are correct? (tick all that apply)",
+   "o": [
+    "The first three stages happen before the ransomware is activated",
+    "Stage four encrypts data to deny users access",
+    "Stage five displays the ransom note",
+    "Stealth is often a priority before activation",
+    "All stages always finish within one hour"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Attackers have performed preparatory steps months before activation.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 10,
+     "quote": "The first three stages of the kill chain take place before the activation of the ransomware. … encrypt identified data to deny users' access (stage four), and display the ransom note with the attacker's demands (stage five)"
+    }
+   ]
+  },
+  {
+   "t": "CRTF",
+   "d": "M",
+   "q": "Which ransomware incidents are cited in the CRTF report? (tick all that apply)",
+   "o": [
+    "Colonial Pipeline (May 2021)",
+    "JBS meat supplier",
+    "Costa Rican government institutions",
+    "SingHealth (2018)"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "SingHealth was a data theft attack, not ransomware.",
+   "src": [
+    {
+     "doc": "Counter-Ransomware Task Force Report (2022)",
+     "path": "week 1/Counter Ransomware Task Force Report - Copy.pdf",
+     "page": 6,
+     "quote": "ransomware attack on the Colonial Pipeline Company … meat giant JBS … nearly 30 Costa Rican government and public institutions were hit by ransomware attacks"
     }
    ]
   },
@@ -6657,6 +10467,143 @@
      "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
      "page": 92,
      "quote": "CONTROL 18 Penetration Testing"
+    }
+   ]
+  },
+  {
+   "t": "CIS",
+   "d": "M",
+   "q": "Which of these are CIS Controls v8.1 controls? (tick all that apply)",
+   "o": [
+    "Data Recovery",
+    "Audit Log Management",
+    "Service Provider Management",
+    "Penetration Testing",
+    "Business Continuity Planning"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "BCP is not one of the 18 CIS Controls (Data Recovery is the closest).",
+   "src": [
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 4,
+     "quote": "Control 8: Audit Log Management … Control 11: Data Recovery"
+    },
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 5,
+     "quote": "Control 15: Service Provider Management … Control 18: Penetration Testing"
+    }
+   ]
+  },
+  {
+   "t": "CIS",
+   "d": "M",
+   "q": "Which statements about CIS Implementation Groups are correct? (tick all that apply)",
+   "o": [
+    "IG1 is defined as 'essential cyber hygiene'",
+    "Each IG builds upon the previous one",
+    "IG3 includes all Safeguards in IG1 and IG2",
+    "IGs are mandatory regulatory compliance tiers"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "IGs are self-assessed categories to help prioritise implementation.",
+   "src": [
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 11,
+     "quote": "we have defined IG1 as \"essential cyber hygiene,\" … Each IG then builds upon the previous one: IG2 includes IG1, and IG3 includes all CIS Safeguards in IG1 and IG2."
+    }
+   ]
+  },
+  {
+   "t": "CIS",
+   "d": "M",
+   "q": "Which are CIS Controls 5–8? (tick all that apply)",
+   "o": [
+    "Account Management",
+    "Access Control Management",
+    "Continuous Vulnerability Management",
+    "Audit Log Management",
+    "Business Impact Analysis"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "BIA is not a CIS Control.",
+   "src": [
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 4,
+     "quote": "Control 5: Account Management … Control 6: Access Control Management … Control 7: Continuous Vulnerability Management"
+    }
+   ]
+  },
+  {
+   "t": "CIS",
+   "d": "M",
+   "q": "Which are CIS Controls 9–13? (tick all that apply)",
+   "o": [
+    "Email and Web Browser Protections",
+    "Malware Defenses",
+    "Network Infrastructure Management",
+    "Network Monitoring and Defense",
+    "Physical Security Guards"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Control 11 (Data Recovery) is also in this range.",
+   "src": [
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 4,
+     "quote": "Control 9: Email and Web Browser Protections … Control 10: Malware Defenses … Control 12: Network Infrastructure Management … Control 13: Network Monitoring and Defense"
+    }
+   ]
+  },
+  {
+   "t": "CIS",
+   "d": "H",
+   "q": "Which were updates in CIS Controls v8.1? (tick all that apply)",
+   "o": [
+    "Added a 'Governance' security function",
+    "Realigned security function mappings to NIST CSF 2.0",
+    "Revised asset classes with new mappings to Safeguards",
+    "Reduced the number of Controls to 10"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "There are still 18 Controls.",
+   "src": [
+    {
+     "doc": "CIS Controls v8.1.2 Guide",
+     "path": "week 2/2025 CIS_Controls_Guide_v8.1.2_0325_v2.pdf",
+     "page": 9,
+     "quote": "Realigned NIST CSF security function mappings to match NIST CSF 2.0 … Revised asset classes, alongside new mappings to Safeguards"
     }
    ]
   },
@@ -6876,6 +10823,168 @@
    ]
   },
   {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which DBIR 2026 findings are correct? (tick all that apply)",
+   "o": [
+    "Exploitation of vulnerabilities is the top initial access vector (31%)",
+    "Ransomware was present in 48% of breaches",
+    "69% of ransomware victims didn't pay",
+    "Credential abuse rose to become the top vector"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Credential abuse FELL to 13%.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 9,
+     "quote": "Exploitation of vulnerabilities is now the most common initial access vector for breaches. It has risen to 31%"
+    },
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 10,
+     "quote": "Ransomware grew again to 48% of all breaches … 69% of ransomware victims didn't pay"
+    }
+   ]
+  },
+  {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which are VERIS primary threat-action categories? (tick all that apply)",
+   "o": [
+    "Malware",
+    "Social",
+    "Misuse",
+    "Error",
+    "Insider",
+    "Ransom"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The seven categories: Malware, Hacking, Social, Misuse, Physical, Error, Environmental.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 7,
+     "quote": "seven primary categories of threat actions: Malware, Hacking,"
+    }
+   ],
+   "src_note": "The list continues on the next line of the page: Social, Misuse, Physical, Error and Environmental."
+  },
+  {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which DBIR 2026 third-party findings are correct? (tick all that apply)",
+   "o": [
+    "Third-party involvement reached 48% of breaches",
+    "Third-party breaches increased by 60% from the previous year",
+    "Only 23% of third parties fully remediated missing/improper MFA on cloud accounts",
+    "Third-party breaches fell sharply"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Weak passwords and permission misconfigurations took ~8 months to resolve 50% of findings.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 10,
+     "quote": "breaches with third-party involvement have increased by 60% from last year's dataset, reaching 48% of total breaches. … only 23% of third-party organizations fully remediated missing or improperly secured multifactor authentication (MFA)"
+    }
+   ]
+  },
+  {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which types of data contributors does the DBIR draw on? (tick all that apply)",
+   "o": [
+    "Large incident response outfits",
+    "Boutique forensics firms",
+    "Law enforcement",
+    "Cyber insurance brokers and reinsurers",
+    "Social media influencers"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Data from almost a hundred contributors, normalised with VERIS.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 6,
+     "quote": "large incident response outfits, boutique forensics firms, law enforcement from local to country level, cyber insurance brokers and reinsurers"
+    }
+   ]
+  },
+  {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which DBIR 2026 GenAI findings are correct? (tick all that apply)",
+   "o": [
+    "The median actor used AI assistance in 15 documented techniques",
+    "Some actors leveraged AI in as many as 40 or 50 techniques",
+    "Most AI-assisted malware used well-known techniques",
+    "AI mostly produced brand-new, never-seen techniques"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Less than 2.5% of AI-assisted malware observations involved less-common techniques.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 11,
+     "quote": "The median threat actor researched or used AI assistance in 15 different documented techniques, with some Actors leveraging as many as 40 or 50. … Less than 2.5% of the AI-assisted malware observations involved lesscommon techniques"
+    }
+   ]
+  },
+  {
+   "t": "DBIR",
+   "d": "M",
+   "q": "Which statements about the human element and social engineering (DBIR 2026) are correct? (tick all that apply)",
+   "o": [
+    "Human element was present in 62% of breaches",
+    "Social Engineering was the third most common breach pattern",
+    "Social Engineering represented 16% of all breaches",
+    "Social Engineering was the #1 breach pattern"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "System Intrusion is #1.",
+   "src": [
+    {
+     "doc": "Verizon 2026 DBIR Executive Summary",
+     "path": "week 2/2026-dbir-executive-summary.pdf",
+     "page": 11,
+     "quote": "Human element was present in 62% of breaches … Social Engineering was our third most common breach pattern, representing 16% of all breaches."
+    }
+   ]
+  },
+  {
    "t": "WEF",
    "d": "E",
    "q": "What is the #1 global risk by severity over the SHORT TERM (2 years) in the WEF Global Risks Report 2026?",
@@ -7037,6 +11146,143 @@
      "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
      "page": 4,
      "quote": "across all 33 risks covered"
+    }
+   ]
+  },
+  {
+   "t": "WEF",
+   "d": "M",
+   "q": "Which risks are in the WEF 2026 TOP 5 for the short term (2 years)? (tick all that apply)",
+   "o": [
+    "Geoeconomic confrontation",
+    "Misinformation and disinformation",
+    "Societal polarization",
+    "Extreme weather events",
+    "State-based armed conflict",
+    "Cyber insecurity"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "e": "Cyber insecurity is #6 in the short term.",
+   "src": [
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 9,
+     "quote": "1. Geoeconomic confrontation 2. Misinformation and disinformation 3. Societal polarization 4. Extreme weather events 5. State-based armed conflict 6. Cyber insecurity"
+    }
+   ]
+  },
+  {
+   "t": "WEF",
+   "d": "M",
+   "q": "Which risks are in the WEF 2026 TOP 3 for the long term (10 years)? (tick all that apply)",
+   "o": [
+    "Extreme weather events",
+    "Biodiversity loss and ecosystem collapse",
+    "Critical change to Earth systems",
+    "Geoeconomic confrontation"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "All three top long-term risks are environmental.",
+   "src": [
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 9,
+     "quote": "1. Extreme weather events 2. Biodiversity loss and ecosystem collapse 3. Critical change to Earth systems"
+    }
+   ]
+  },
+  {
+   "t": "WEF",
+   "d": "M",
+   "q": "Which WEF 2026 rankings are correct? (tick all that apply)",
+   "o": [
+    "Misinformation and disinformation is #2 in the short term",
+    "Cyber insecurity is #6 in the short term",
+    "Adverse outcomes of AI is #5 in the long term",
+    "Adverse outcomes of AI is #1 in the short term"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "AI adverse outcomes rose from #30 (2-year) to #5 (10-year).",
+   "src": [
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 9,
+     "quote": "2. Misinformation and disinformation … 6. Cyber insecurity … 5. Adverse outcomes of AI technologies"
+    }
+   ]
+  },
+  {
+   "t": "WEF",
+   "d": "M",
+   "q": "Which risks are in the WEF 2026 long-term (10-year) top 10? (tick all that apply)",
+   "o": [
+    "Natural resource shortages",
+    "Inequality",
+    "Societal polarization",
+    "Pollution",
+    "Geoeconomic confrontation"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Geoeconomic confrontation tops the SHORT-term list, not the 10-year top 10.",
+   "src": [
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 9,
+     "quote": "6. Natural resource shortages 7. Inequality 8. Cyber insecurity 9. Societal polarization 10. Pollution"
+    }
+   ]
+  },
+  {
+   "t": "WEF",
+   "d": "M",
+   "q": "Which WEF 2026 outlook findings are correct? (tick all that apply)",
+   "o": [
+    "50% expect a turbulent or stormy outlook over two years",
+    "This rises to 57% for 2036",
+    "Only 1% anticipate a calm outlook",
+    "Most respondents expect a calm outlook"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A fractured, contested multipolar landscape is emerging.",
+   "src": [
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 22,
+     "quote": "50% of respondents selecting either a turbulent or stormy outlook over the next two years"
+    },
+    {
+     "doc": "WEF Global Risks Report 2026",
+     "path": "week 2/WEF_Global_Risks_Report_2026.pdf",
+     "page": 4,
+     "quote": "only 1% anticipating a calm outlook"
     }
    ]
   },
@@ -7258,6 +11504,168 @@
      "path": "week 2/L02-IMF Operational Risk Management _ BCP for Modern State Treasuries.pdf",
      "page": 4,
      "quote": "operational risk is mainly endogenous to the ministry of finance"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "M",
+   "q": "Which are the three lines of defence in BCBS operational risk governance? (tick all that apply)",
+   "o": [
+    "Business line management",
+    "An independent corporate operational risk management function",
+    "An independent review",
+    "External regulators"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Regulators supervise, but are not one of the bank's three lines.",
+   "src": [
+    {
+     "doc": "BCBS Principles for the Sound Management of Operational Risk",
+     "path": "week 2/L02-FSB Principles for the Sound Management of Operational Risk.pdf",
+     "page": 11,
+     "quote": "three lines of defence - (i) business line management, (ii) an independent corporate operational risk management function and (iii) an independent review"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "M",
+   "q": "Which are steps of the IMF six-step process to develop a BCP/DRP? (tick all that apply)",
+   "o": [
+    "Document business activities and critical processes and systems",
+    "Undertake a business impact analysis",
+    "Develop the BCP/DRP (include third parties)",
+    "Training to embed it into day-to-day operations",
+    "Outsource all treasury operations"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The remaining steps: implement/update the BCP/DRP; regular (annual) testing and updating.",
+   "src": [
+    {
+     "doc": "IMF Operational Risk Management & BCP for Treasuries",
+     "path": "week 2/L02-IMF Operational Risk Management _ BCP for Modern State Treasuries.pdf",
+     "page": 13,
+     "quote": "Step 1: Document business activities and critical processes and systems • Step 2: Undertake business impact analysis to assess probability and impact • Step 3: Develop BCP/DRP (include third parties)"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "M",
+   "q": "Which BCBS principles are responsibilities of the BOARD of directors? (tick all that apply)",
+   "o": [
+    "Take the lead in establishing a strong risk management culture",
+    "Establish, approve and periodically review the Framework",
+    "Approve and review a risk appetite and tolerance statement",
+    "Ensure identification and assessment of operational risk in all material products"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Identification and assessment (Principle 6) is a SENIOR MANAGEMENT responsibility.",
+   "src": [
+    {
+     "doc": "BCBS Principles for the Sound Management of Operational Risk",
+     "path": "week 2/L02-FSB Principles for the Sound Management of Operational Risk.pdf",
+     "page": 13,
+     "quote": "Principle 1: The board of directors should take the lead in establishing a strong risk management culture. … Principle 3: The board of directors should establish, approve and periodically review the Framework. … Principle 4: The board of directors should approve and review a risk appetite and tolerance statement"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "M",
+   "q": "Which tools for identifying and assessing operational risk are in the BCBS principles? (tick all that apply)",
+   "o": [
+    "Internal loss data collection and analysis",
+    "Key Risk Indicators (KRIs)",
+    "Scenario analysis",
+    "Horoscope forecasting"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "KPIs give insight into the status of operational processes.",
+   "src": [
+    {
+     "doc": "BCBS Principles for the Sound Management of Operational Risk",
+     "path": "week 2/L02-FSB Principles for the Sound Management of Operational Risk.pdf",
+     "page": 19,
+     "quote": "Internal Loss Data Collection and Analysis"
+    },
+    {
+     "doc": "BCBS Principles for the Sound Management of Operational Risk",
+     "path": "week 2/L02-FSB Principles for the Sound Management of Operational Risk.pdf",
+     "page": 20,
+     "quote": "Key Risk Indicators (KRIs) … Scenario Analysis: Scenario analysis is a process of obtaining expert opinion"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "M",
+   "q": "Why is operational risk management often neglected in treasuries (IMF)? (tick all that apply)",
+   "o": [
+    "Not seen as important or a priority",
+    "Inadequate resources allocated",
+    "Responsibility delegated to IT",
+    "Treated as a one-off project",
+    "Too much regulatory pressure"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "There is normally NO regulatory pressure, unlike for central banks.",
+   "src": [
+    {
+     "doc": "IMF Operational Risk Management & BCP for Treasuries",
+     "path": "week 2/L02-IMF Operational Risk Management _ BCP for Modern State Treasuries.pdf",
+     "page": 4,
+     "quote": "there are inadequate resources allocated … responsibility is delegated to information technology, and it becomes a one-off project"
+    }
+   ]
+  },
+  {
+   "t": "OPRISK",
+   "d": "H",
+   "q": "Which are steps of the IMF six-step ORM framework for treasury? (tick all that apply)",
+   "o": [
+    "Risk Policy",
+    "Survey Process",
+    "Development of the Matrix",
+    "Establish Treatment Plan",
+    "Ransom negotiation"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also Establish Ranking and Monitoring & Review.",
+   "src": [
+    {
+     "doc": "IMF Operational Risk Management & BCP for Treasuries",
+     "path": "week 2/L02-IMF Operational Risk Management _ BCP for Modern State Treasuries.pdf",
+     "page": 9,
+     "quote": "Step 1: Risk Policy … Step 2: Survey Process … Step 3: Development of the Matrix … Step 5: Establish Treatment Plan"
     }
    ]
   },
@@ -7498,6 +11906,220 @@
      "path": "week 3/L03-BCM for SG Logistics Sector.pdf",
      "page": 11,
      "quote": "BCM Steering Committee - which sets directions and corporate objectives, approves the policy"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which incident management procedures does the DHS BCP template ask you to define? (tick all that apply)",
+   "o": [
+    "Incident detection and reporting",
+    "Alerting and notifications",
+    "Business continuity plan activation",
+    "Damage assessment and situation analysis",
+    "Press conference with competitors"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also emergency operations center activation and an incident action plan.",
+   "src": [
+    {
+     "doc": "US DHS Business Continuity Plan template",
+     "path": "week 1/L01-BCP 2014 - US Department of Homeland Security - Copy.pdf",
+     "page": 3,
+     "quote": "Incident detection and reporting … Alerting and notifications … Business continuity plan activation"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which are phases of business continuity planning per the SANS paper? (tick all that apply)",
+   "o": [
+    "Project Initiation",
+    "Business Analysis",
+    "Design and Development",
+    "Testing",
+    "Procurement"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Six phases: Project Initiation, Business Analysis, Design & Development, Implementation, Testing, Maintenance.",
+   "src": [
+    {
+     "doc": "SANS – Introduction to Business Continuity Planning",
+     "path": "week 4/L04-SANS introduction-business-continuity-planning-559.pdf",
+     "page": 5,
+     "quote": "1. Project Initiation … 2. Business Analysis … 3. Design and Development … 5. Testing"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "E",
+   "q": "Which items does FEMA recommend for emergency supplies? (tick all that apply)",
+   "o": [
+    "Battery-powered radio",
+    "Flashlight",
+    "First Aid kit",
+    "Whistle to signal for help",
+    "Office printer"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also extra batteries, water, food, dust masks and sanitation items.",
+   "src": [
+    {
+     "doc": "FEMA – Every Business Should Have a Plan",
+     "path": "week 1/L01-FEMA - Every Business Should Have a Plan - Copy.pdf",
+     "page": 4,
+     "quote": "battery-powered commercial radio … a flashlight, water, food, First Aid kit, whistle to signal for help"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which continuity planning advice does FEMA give? (tick all that apply)",
+   "o": [
+    "Identify operations critical to survival and recovery",
+    "Include emergency payroll and expedited financial decision-making",
+    "Develop relationships with more than one supplier",
+    "Rely on a single key supplier"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A disaster that shuts down a key supplier can be devastating.",
+   "src": [
+    {
+     "doc": "FEMA – Every Business Should Have a Plan",
+     "path": "week 1/L01-FEMA - Every Business Should Have a Plan - Copy.pdf",
+     "page": 3,
+     "quote": "identify operations critical to survival and recovery … Include emergency payroll, expedited financial decisionmaking … Develop professional relationships with more than one company"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which ways to communicate with employees in an emergency does FEMA suggest? (tick all that apply)",
+   "o": [
+    "Telephone calling tree",
+    "Password-protected page on the company website",
+    "Email alert or call-in voice recording",
+    "Out-of-town number for 'I'm Okay' messages",
+    "Anonymous public forum posts"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Two-way communication is central before, during and after a disaster.",
+   "src": [
+    {
+     "doc": "FEMA – Every Business Should Have a Plan",
+     "path": "week 1/L01-FEMA - Every Business Should Have a Plan - Copy.pdf",
+     "page": 4,
+     "quote": "Consider setting up a telephone calling tree, a password-protected page on the company website, an email alert or a call-in voice recording"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which related plans does the DHS BCP template reference in its appendix? (tick all that apply)",
+   "o": [
+    "Emergency Response Plan",
+    "IT Disaster Recovery Plan",
+    "Crisis Communications Plan",
+    "Employee Assistance Plan",
+    "Marketing Plan"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "References to Related Policies & Procedures.",
+   "src": [
+    {
+     "doc": "US DHS Business Continuity Plan template",
+     "path": "week 1/L01-BCP 2014 - US Department of Homeland Security - Copy.pdf",
+     "page": 3,
+     "quote": "emergency response plan … Crisis Communications Plan … Employee Assistance Plan"
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "H",
+   "q": "Which certifications/standards are listed in the SBF logistics BCM guide? (tick all that apply)",
+   "o": [
+    "ISO 22301",
+    "ISO 27001",
+    "ISO 28000",
+    "SS 584",
+    "PCI DSS"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "These support supply-chain and cloud resilience for logistics firms.",
+   "src": [
+    {
+     "doc": "SBF/SLA – BCM for Singapore's Logistics Sector",
+     "path": "week 3/L03-BCM for SG Logistics Sector.pdf",
+     "page": 2,
+     "quote": "ISO 22301 Societal Security … ISO 27001 Information Security Management Systems. … ISO 28000 Certification on Security Management Systems for Supply Chain."
+    }
+   ]
+  },
+  {
+   "t": "BCPG",
+   "d": "M",
+   "q": "Which steps appear in the SANS Disaster Recovery Plan process? (tick all that apply)",
+   "o": [
+    "Develop the business contingency planning policy",
+    "Conduct a risk assessment",
+    "Conduct the business impact analysis",
+    "Develop business continuity and recovery strategies",
+    "Negotiate with attackers"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Then develop BCPs, run awareness/testing/training, and maintain the DRP.",
+   "src": [
+    {
+     "doc": "SANS – Disaster Recovery Plan",
+     "path": "week 4/SANS disaster-recovery-plan-1164.pdf",
+     "page": 7,
+     "quote": "1. Develop the Business Contingency Planning Policy and Business Process Priorities 2. Conduct a Risk Assessment 3. Conduct the Business Impact Analysis (BIA) 4. Develop Business Continuity and Recovery Strategies"
     }
    ]
   }
