@@ -42,3 +42,16 @@ All questions are in `questions.json`:
 - Always put the correct MCQ option **first**. The app shuffles the options when it displays them.
 - In a multi-select question, `m` lists the indices of the correct options.
 - Text supports Markdown (`**bold**`, `*italic*`).
+
+### Source references
+
+Every question has a `src` list that points to where the answer comes from. After you answer a question (and in **Review all**), the app shows a **📄 Source** section with the document, the page and a word-for-word quote:
+
+```json
+"src": [{"doc": "L05 Disaster Recovery (slides)", "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf", "page": 32, "quote": "Facility with bare minimum support i.e. space, electricity and connection. ..."}],
+"src_note": "Optional caveat, e.g. when the detail is in a figure rather than the slide text"
+```
+
+- `page` is the PDF page number your PDF viewer shows, which for slides is the slide number. For standards and reports, it can differ from the page number printed on the page.
+- `path` is relative to the course notes folder.
+- Quotes are copied from the PDF text. Where a slide's layout splits a sentence, the pieces are joined with ` … `.

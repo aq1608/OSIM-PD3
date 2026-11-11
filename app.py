@@ -55,6 +55,25 @@ def md(s: str) -> str:
     return str(s).replace("$", r"\$")
 
 
+def md_literal(s: str) -> str:
+    """Escape Markdown so a verbatim quote from the PDF renders exactly as written."""
+    return re.sub(r"([\\`*_{}\[\]<>#+|~$])", r"\\\1", str(s))
+
+
+def show_sources(q):
+    """Render the source document, page and verbatim quote for a question."""
+    srcs = q.get("src") or []
+    if not srcs:
+        return
+    st.markdown("**📄 Source**")
+    for s in srcs:
+        st.markdown(f"*{md_literal(s['doc'])}* — **PDF page {s['page']}**  \n"
+                    f":gray[`{s['path']}`]")
+        st.markdown("> " + md_literal(s["quote"]))
+    if q.get("src_note"):
+        st.caption("ℹ️ " + md(q["src_note"]))
+
+
 def norm(s) -> str:
     return re.sub(r"[^a-z0-9]+", " ", str(s).lower()).strip()
 
@@ -202,6 +221,7 @@ if mode == "Review all":
             st.markdown(f"*{md(q.get('e', ''))}*")
             if ans is not None and not is_correct(q, ans):
                 st.markdown(f":red[Your answer: {md(your_text(q, ans))}]")
+            show_sources(q)
     st.stop()
 
 
@@ -286,6 +306,7 @@ with st.container(border=True):
             st.success(f"**✓ Correct.** {explanation}")
         else:
             st.error(f"**✗ Incorrect.** {explanation}\n\n**Answer:** {md(answer_text(q))}")
+        show_sources(q)
 
 
 def go(delta):
