@@ -19,9 +19,14 @@ TYPE_LABEL = {"mc": "Multiple choice", "multi": "Select all that apply", "tf": "
 
 
 # ---------------------------------------------------------------- data
+BANK_PATH = Path(__file__).parent / "questions.json"
+
+
 @st.cache_data
-def load_bank():
-    data = json.loads((Path(__file__).parent / "questions.json").read_text(encoding="utf-8"))
+def load_bank(bank_hash: str):
+    """bank_hash is part of the cache key, so editing questions.json invalidates the cache.
+    (Without it, Streamlit Cloud keeps serving the old questions after a push.)"""
+    data = json.loads(BANK_PATH.read_text(encoding="utf-8"))
     topics = data["topics"]
     labels = {t["id"]: t["label"] for t in topics}
     questions = []
@@ -44,7 +49,7 @@ def load_bank():
     return topics, labels, questions
 
 
-TOPICS, LABELS, QUESTIONS = load_bank()
+TOPICS, LABELS, QUESTIONS = load_bank(hashlib.md5(BANK_PATH.read_bytes()).hexdigest())
 BY_ID = {q["id"]: q for q in QUESTIONS}
 LEC = [t["id"] for t in TOPICS if t["group"] == "Lecture slides"]
 MAT = [t["id"] for t in TOPICS if t["group"] != "Lecture slides"]

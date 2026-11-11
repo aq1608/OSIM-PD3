@@ -1,10 +1,15 @@
-# OSIM — Test Yourself Quiz (Streamlit)
+# OSIM — Test Yourself Quiz
 
-A Streamlit revision quiz for **Operations Security & Incident Management**. It has 366 questions across 21 categories: one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
+A revision quiz for **Operations Security & Incident Management**, available in two versions that share the same `questions.json`:
+
+- **Streamlit:** `app.py`
+- **Static HTML for GitHub Pages:** `index.html`
+
+The quiz has 366 questions across 21 categories: one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
 
 It is unofficial and not guaranteed 100% accurate. If something looks off, check the source slides.
 
-## Run locally
+## Streamlit version: run locally
 
 ```bash
 pip install -r requirements.txt
@@ -18,6 +23,21 @@ streamlit run app.py
 
 1. Push this folder (`app.py`, `questions.json`, `requirements.txt`) to a GitHub repo.
 2. At share.streamlit.io, choose **Create app**, pick the repo and branch, and set the main file to `app.py`.
+
+## Static HTML version (GitHub Pages)
+
+`index.html` loads `questions.json` from the same folder, so it needs no build step.
+
+- **GitHub Pages:** in the repo, go to Settings → Pages → deploy from branch, root folder. The quiz is served at the Pages URL.
+- **Locally:** browsers block `fetch` on `file://`, so serve the folder rather than double-clicking the file:
+
+  ```bash
+  python -m http.server 8000
+  ```
+
+  Then open http://localhost:8000.
+
+The HTML version saves your progress in the browser's localStorage. It also supports keyboard shortcuts: `1`–`4`, `T`/`F`, `Enter`, and `←`/`→`.
 
 ## Features
 
