@@ -37,11 +37,13 @@ streamlit run app.py
 
   Then open http://localhost:8000.
 
-The HTML version saves your progress in the browser's localStorage. It also supports keyboard shortcuts: `1`–`4`, `T`/`F`, `Enter`, and `←`/`→`.
+The HTML version saves your progress in the browser's localStorage. It also supports keyboard shortcuts: `1`–`9`, `T`/`F`, `Enter`, `←`/`→`, and `Esc` to go back to the filters.
 
 ## Features
 
-- Both versions share the same dark navy look. Filter chips let you pick lectures, other materials, question type and difficulty.
+- Both versions share the same dark navy look. You can filter by lectures, other materials, question type and difficulty.
+- **HTML layout:** you start on a setup screen with four compact filter cards. Click a card to expand its chips, then press **Start quiz**. During the quiz the filters shrink to a row of small summary cards above the question. Click a card, or press `Esc`, to change filters.
+- **Streamlit layout:** the filters sit in the sidebar under collapsible sections, along with the options, reset and save/load. The quiz and **Review all** take up the main page, with your current selection summarised in small cards at the top.
 - Four question types: select-all-that-apply, multiple choice, true/false, and short answer. Select-all questions are listed first. To practise only those, set the **Question type** filter to **Multi-select**.
 - For select-all questions, tick each option you think is correct, then press **Submit**. Correct ticks, wrong ticks and options you missed are each marked.
 - Each answer shows an explanation, and the options are shuffled for every question
