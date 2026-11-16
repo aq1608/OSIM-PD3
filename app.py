@@ -62,6 +62,13 @@ section[data-testid="stSidebar"] [data-testid="stBaseButton-pillsActive"]{border
 .st-key-reset button{font-size:.76rem;background:var(--s2);border:1px solid var(--bd);color:var(--tx2)}
 .st-key-reset button:hover{border-color:var(--rd);color:var(--rd)}
 
+/* reset confirmation */
+.st-key-reset button:hover{border-color:var(--rd)!important;color:var(--rd)!important}
+.st-key-resetpanel{background:var(--s1);border:1px solid rgba(248,113,113,.45);border-radius:12px;padding:12px 14px}
+.rp-t{font-size:.85rem;margin:0 0 4px} .rp-t small{display:block;color:var(--tx2);font-size:.72rem;margin-top:2px}
+.st-key-rp_sel button,.st-key-rp_all button{border-color:var(--rd);color:var(--rd);background:rgba(248,113,113,.07);font-size:.76rem}
+.st-key-rp_cancel button{font-size:.76rem}
+
 /* main: summary cards */
 .mini{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 8px}
 .mcard{background:var(--s1);border:1px solid var(--bd);border-radius:9px;padding:5px 10px;font-size:.72rem;color:var(--tx2);display:inline-flex;align-items:center;gap:6px}
@@ -313,7 +320,6 @@ with st.sidebar:
     html_block('<div class="sb-sec">Options</div>')
     st.toggle("⇄ Shuffle question order", key="shuffle", on_change=new_seed)
     st.toggle("✗ Only unanswered / wrong", key="wrong_only")
-    reset_slot = st.container()
     progress_slot = st.container()
 
 # ---------------------------------------------------------------- filtering
@@ -338,21 +344,6 @@ acc = f"{round(len(correct) / len(answered) * 100)}%" if answered else "–"
 pct = (len(answered) / len(pool) * 100) if pool else 0
 
 pool_slot.markdown(f'<div class="sb-pool"><b>{len(items)}</b> questions selected</div>', unsafe_allow_html=True)
-
-with reset_slot:
-    if st.button("↻ Reset answers in this selection", key="reset", use_container_width=True):
-        ss.confirm_reset = True
-    if ss.get("confirm_reset"):
-        st.warning(f"Clear your answers for the {len(pool)} selected questions?")
-        r1, r2 = st.columns(2)
-        if r1.button("Yes, clear", use_container_width=True):
-            for q in pool:
-                ss.answers.pop(q["id"], None)
-            ss.confirm_reset = False
-            st.rerun()
-        if r2.button("Cancel", use_container_width=True):
-            ss.confirm_reset = False
-            st.rerun()
 
 with progress_slot.expander("💾 Save / load progress"):
     st.caption("Progress lasts for this browser session. Download it to continue later.")
@@ -385,11 +376,40 @@ html_block('<div class="mini">' + "".join(f'<span class="mcard">{c}</span>' for 
            + '<span class="mcard hint2">change in the sidebar ←</span></div>'
            + f'<div class="pb"><div class="pf" style="width:{pct:.1f}%"></div></div>')
 
-m1, m2, _ = st.columns([1, 1, 3])
+m1, m2, _, m3 = st.columns([1, 1.2, 1.6, 1])
 m1.button("▶ Quiz", key="mode_quiz", on_click=set_mode, args=("quiz",),
           type="primary" if ss.mode == "quiz" else "secondary", use_container_width=True)
 m2.button("☰ Review all", key="mode_review", on_click=set_mode, args=("review",),
           type="primary" if ss.mode == "review" else "secondary", use_container_width=True)
+m3.button("↻ Reset", key="reset", on_click=lambda: ss.update(confirm_reset=not ss.get("confirm_reset")),
+          use_container_width=True, help="Clear saved answers")
+
+
+def do_reset(which):
+    if which == "all":
+        ss.answers = {}
+    else:
+        for q in pool:
+            ss.answers.pop(q["id"], None)
+    ss.pending = {}
+    ss.pos, ss.current_id, ss.confirm_reset = 0, None, False
+
+
+if ss.get("confirm_reset"):
+    sel_n = sum(1 for q in pool if q["id"] in ss.answers)
+    all_n = len(ss.answers)
+    with st.container(key="resetpanel"):
+        if all_n:
+            html_block(f'<p class="rp-t">Reset your saved answers?<small>This selection: {sel_n} answered of {len(pool)} · '
+                       f'Everything: {all_n} answered. This cannot be undone.</small></p>')
+        else:
+            html_block('<p class="rp-t">You have not answered anything yet — nothing to reset.</p>')
+        r1, r2, r3, _ = st.columns([1.5, 1.3, 1, 0.6])
+        r1.button(f"↻ This selection ({sel_n})", key="rp_sel", on_click=do_reset, args=("sel",),
+                  disabled=not sel_n, use_container_width=True)
+        r2.button(f"↻ Everything ({all_n})", key="rp_all", on_click=do_reset, args=("all",),
+                  disabled=not all_n, use_container_width=True)
+        r3.button("Cancel", key="rp_cancel", on_click=lambda: ss.update(confirm_reset=False), use_container_width=True)
 
 if not items:
     msg = ("🎉 Nothing left — everything in this selection is answered correctly."

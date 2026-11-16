@@ -5,7 +5,7 @@ A revision quiz for **Operations Security & Incident Management**, available in 
 - **Streamlit:** `app.py`
 - **Static HTML for GitHub Pages:** `index.html`
 
-The quiz has 536 questions across 21 categories. 180 of them are select-all-that-apply, which both versions show first. The categories are one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
+The quiz has 634 questions across 21 categories. 231 of them are select-all-that-apply, which both versions show first. Lectures 9–11 (Incident Response 1 & 2, Cyber Security Exercise) have extra coverage: 54, 75 and 66 questions, against roughly 32 for each other lecture. The categories are one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
 
 It is unofficial and not guaranteed 100% accurate. If something looks off, check the source slides.
 
@@ -43,7 +43,8 @@ The HTML version saves your progress in the browser's localStorage. It also supp
 
 - Both versions share the same dark navy look. You can filter by lectures, other materials, question type and difficulty.
 - **HTML layout:** you start on a setup screen with four compact filter cards. Click a card to expand its chips, then press **Start quiz**. During the quiz the filters shrink to a row of small summary cards above the question. Click a card, or press `Esc`, to change filters.
-- **Streamlit layout:** the filters sit in the sidebar under collapsible sections, along with the options, reset and save/load. The quiz and **Review all** take up the main page, with your current selection summarised in small cards at the top.
+- **Streamlit layout:** the filters sit in the sidebar under collapsible sections, along with the options and save/load. The quiz and **Review all** take up the main page, with your current selection summarised in small cards at the top.
+- **↻ Reset** is a button on the main quiz screen in both versions (the HTML version also shows it on the setup screen). It asks you to confirm, then clears either the answers in your current selection or all of them.
 - Four question types: select-all-that-apply, multiple choice, true/false, and short answer. Select-all questions are listed first. To practise only those, set the **Question type** filter to **Multi-select**.
 - For select-all questions, tick each option you think is correct, then press **Submit**. Correct ticks, wrong ticks and options you missed are each marked.
 - Each answer shows an explanation, and the options are shuffled for every question

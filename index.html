@@ -73,8 +73,17 @@ button{font-family:var(--font)}
 .ghost{background:var(--s2);border:1px solid var(--bd);color:var(--tx);padding:13px 18px;border-radius:10px;font-size:.85rem;cursor:pointer}
 .ghost:hover{border-color:var(--ac2);color:var(--ac2)}
 .progress-note{margin-top:12px;font-size:.72rem;color:var(--tx2);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.progress-note button{background:none;border:none;color:var(--tx2);font-size:.72rem;cursor:pointer;text-decoration:underline}
-.progress-note button:hover{color:var(--rd)}
+/* reset button + confirmation panel */
+.rbtn.danger:hover,.ghost.danger:hover{border-color:var(--rd);color:var(--rd)}
+.resetpanel{background:var(--s1);border:1px solid rgba(248,113,113,.45);border-radius:12px;padding:14px 16px;margin:10px 0;animation:fadeIn .2s ease}
+.resetpanel p{font-size:.84rem;margin-bottom:10px;line-height:1.5}
+.resetpanel p small{display:block;color:var(--tx2);font-size:.72rem;margin-top:2px}
+.resetpanel .rrow{display:flex;gap:8px;flex-wrap:wrap}
+.resetpanel button{font-size:.76rem;padding:8px 12px;border-radius:8px;cursor:pointer;border:1px solid var(--bd);background:var(--s2);color:var(--tx)}
+.resetpanel button.warn{border-color:var(--rd);color:var(--rd);background:rgba(248,113,113,.07)}
+.resetpanel button.warn:hover{background:rgba(248,113,113,.15)}
+.resetpanel button:disabled{opacity:.4;cursor:default}
+.resetpanel button.cancel:hover{border-color:var(--ac2);color:var(--ac2)}
 
 /* ---------- running bar (summary cards) ---------- */
 .runbar{display:flex;flex-direction:column;gap:8px;margin:6px 0 4px}
@@ -183,6 +192,16 @@ button{font-family:var(--font)}
     <p>Operations Security &amp; Incident Management · Lectures L01–L12 + NIST, ISO, CSA, CIS, DBIR, WEF &amp; more</p>
   </div>
 
+  <!-- reset confirmation (opened by any ↻ Reset button) -->
+  <div class="resetpanel" id="resetPanel" hidden>
+    <p id="resetText">Reset your answers?</p>
+    <div class="rrow">
+      <button type="button" class="warn" data-reset="sel" id="resetSelBtn">Reset this selection</button>
+      <button type="button" class="warn" data-reset="all" id="resetAllBtn">Reset everything</button>
+      <button type="button" class="cancel" data-reset="cancel">Cancel</button>
+    </div>
+  </div>
+
   <!-- ================= SETUP SCREEN ================= -->
   <section id="setupView">
     <div class="setup">
@@ -204,8 +223,9 @@ button{font-family:var(--font)}
       <div class="start-row">
         <button class="startbtn" id="startBtn" type="button">▶ Start quiz</button>
         <button class="ghost" data-go="review" type="button">Review all</button>
+        <button class="ghost danger" data-reset="open" type="button" title="Clear saved answers">↻ Reset</button>
       </div>
-      <div class="progress-note"><span id="progressNote">No answers yet.</span><button type="button" id="resetBtn">Reset answers in this selection</button></div>
+      <div class="progress-note"><span id="progressNote">No answers yet.</span></div>
     </div>
   </section>
 
@@ -350,7 +370,7 @@ function miniCards(){
     card("🎯","Difficulty",diffSummary()==="All"?"All difficulties":diffSummary(),"diff")+
     (opts.length?`<span class="mcard stat">${opts.join(" · ")}</span>`:"")+
     `<span class="mcard stat">✓ <b>${correct}</b>/${answered} · ${answered?Math.round(correct/answered*100)+"%":"–"}</span>`+
-    `<span class="runacts"><button type="button" class="rbtn ${state.view==="review"?"on":""}" data-go="${state.view==="review"?"quiz":"review"}">${state.view==="review"?"◀ Back to quiz":"☰ Review all"}</button><button type="button" class="rbtn" data-go="setup">⚙ Filters</button></span>`;
+    `<span class="runacts"><button type="button" class="rbtn ${state.view==="review"?"on":""}" data-go="${state.view==="review"?"quiz":"review"}">${state.view==="review"?"◀ Back to quiz":"☰ Review all"}</button><button type="button" class="rbtn danger" data-reset="open" title="Clear saved answers">↻ Reset</button><button type="button" class="rbtn" data-go="setup">⚙ Filters</button></span>`;
   $("pBar").style.width=pool.length?(answered/pool.length*100)+"%":"0%";
 }
 
@@ -455,11 +475,33 @@ document.addEventListener("click",e=>{
 $("startBtn").onclick=()=>{ buildList(); const first=list.findIndex(q=>state.answers[q.id]===undefined); cur=first>=0?first:0; go("quiz"); };
 $("shufBtn").onclick=()=>{ if(!Q.length) return; state.shuffle=!state.shuffle; state.seed=Math.floor(Math.random()*1e9); cur=0; refilter(); };
 $("wrongBtn").onclick=()=>{ if(!Q.length) return; state.wrongOnly=!state.wrongOnly; cur=0; refilter(); };
-$("resetBtn").onclick=()=>{
+/* ---------- reset (available from the setup screen and the quiz bar) ---------- */
+function openReset(){
   const pool=Q.filter(inFilter);
-  if(!pool.length||!confirm(`Clear your answers for the ${pool.length} questions in this selection?`)) return;
-  pool.forEach(q=>delete state.answers[q.id]); cur=0; refilter();
-};
+  const selAns=pool.filter(q=>state.answers[q.id]!==undefined).length;
+  const allAns=Object.keys(state.answers).filter(k=>Q.some(q=>q.id===k)).length;
+  $("resetText").innerHTML=allAns
+    ? `Reset your saved answers?<small>This selection: ${selAns} answered of ${pool.length} · Everything: ${allAns} answered. This can't be undone.</small>`
+    : `You haven't answered anything yet — nothing to reset.`;
+  $("resetSelBtn").textContent=`Reset this selection (${selAns})`;
+  $("resetAllBtn").textContent=`Reset everything (${allAns})`;
+  $("resetSelBtn").disabled=!selAns; $("resetAllBtn").disabled=!allAns;
+  $("resetPanel").hidden=false;
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function doReset(which){
+  if(which==="all") state.answers={};
+  else Q.filter(inFilter).forEach(q=>delete state.answers[q.id]);
+  $("resetPanel").hidden=true; pendingMulti=[]; cur=0; refilter();
+}
+document.addEventListener("click",e=>{
+  const r=e.target.closest("[data-reset]");
+  if(!r||!Q.length) return;
+  const a=r.dataset.reset;
+  if(a==="open") openReset();
+  else if(a==="cancel") $("resetPanel").hidden=true;
+  else doReset(a);
+});
 
 function record(q,v){ state.answers[q.id]=v; pendingMulti=[]; save(); render(); }
 $("quizArea").addEventListener("click",e=>{

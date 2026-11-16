@@ -5569,6 +5569,586 @@
    ]
   },
   {
+   "t": "L09",
+   "d": "E",
+   "q": "Which are examples of EVENTS given in L09? (tick all that apply)",
+   "o": [
+    "System boot sequence",
+    "System crash",
+    "Packet flooding within a network",
+    "Unauthorised use of another user's account"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Unauthorised use of another user's account is an INCIDENT example. A crash or packet flood may be normal behaviour or an attack.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 5,
+     "quote": "1. System boot sequence 2. System crash (which can be a normal behavior or an attack) 3. Packet flooding within a network"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "Which are examples of INCIDENTS given in L09? (tick all that apply)",
+   "o": [
+    "Unauthorised use of another user's account",
+    "Unauthorised use of system privileges",
+    "Execution of malicious code that destroys data",
+    "System boot sequence"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "An incident implies harm or the attempt to harm.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 6,
+     "quote": "1. Unauthorised use of another user's account 2. Unauthorised use of system privileges 3. Execution of malicious code that destroys data"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "Per L09, an incident implies harm or the attempt to harm.",
+   "tf": true,
+   "e": "Incident = violation or imminent threat of violation of security policies, AUP or standard practices.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 6,
+     "quote": "Incident implies harm or the attempt to harm"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "All events are incidents.",
+   "tf": false,
+   "e": "An event may be harmless. Only events that violate policies (typically causing harm) are incidents.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 8,
+     "quote": "An event may be adverse, i.e. it violates policies, OR may be harmless, i.e. does not violate policies."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "NIST SP 800-61r2 defines INCIDENT HANDLING as:",
+   "o": [
+    "Mitigation of violations of computer security policies, acceptable use policies and standard security practices",
+    "Any observable occurrence in a system or network",
+    "Confirmed disclosure of data to an unauthorised party",
+    "Monitoring of IDS alerts"
+   ],
+   "e": "Event = observable occurrence; incident = violation; incident handling = mitigating violations.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 7,
+     "quote": "Mitigation of Violations of Computer Security Policies, Acceptable Use Policies & Standard Security Practices"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which steps does L09 list for building an IR capability? (tick all that apply)",
+   "o": [
+    "Establish a formal IR capability",
+    "Create an IR policy",
+    "Develop an IR plan based on the IR policy",
+    "Develop IR procedures",
+    "Buy cyber insurance first"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also: information-sharing policies, choosing a team model, selecting skilled people, identifying other groups, and deciding extra services.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 10,
+     "quote": "Establish a formal IR capability • Create an IR policy"
+    },
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 11,
+     "quote": "Develop an IR plan based on the IR policy. … Develop IR procedures"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "What does an IR PLAN provide? (tick all that apply)",
+   "o": [
+    "A roadmap for implementing the IR programme",
+    "Short-term and long-term goals, including metrics",
+    "Requirements and training frequency for IR handlers",
+    "Detailed step-by-step response commands"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Detailed steps belong in IR PROCEDURES.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 11,
+     "quote": "Provide roadmap for implementing the IR programme o Indicate short-term and long-term goals, including metrics o Indicate requirements and training frequency for IR handlers"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "What characterises IR PROCEDURES? (tick all that apply)",
+   "o": [
+    "They provide detailed steps for responding to an incident",
+    "They cover all phases of the IR process",
+    "They are based on the IR policy and plan",
+    "They replace the need for an IR policy"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Policy → plan → procedures, each building on the previous.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 11,
+     "quote": "Provide detailed steps for responding to an incident o Cover all phases of the IR process o Based on IR policy and plan"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Why should organisations establish policies on incident-related INFORMATION SHARING?",
+   "o": [
+    "To communicate appropriate incident details with external parties such as media, regulators and law enforcement",
+    "To stop staff talking to the IR team",
+    "To publish all incident data publicly",
+    "To avoid any reporting to regulators"
+   ],
+   "e": "Information sharing should be planned and controlled, not ad hoc.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 12,
+     "quote": "Communicate appropriate incident details with external parties, e.g. media, regulars, law enforcement agencies, etc."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "Who co-ordinates internal and external incident communications?",
+   "o": [
+    "The IR team",
+    "The HR department",
+    "The external auditor",
+    "Each employee individually"
+   ],
+   "e": "Communication scope is internal and external, coordinated by the IR team.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 16,
+     "quote": "Co-ordinated by the IR team"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "All incidents must be reported to regulators or law enforcement agencies.",
+   "tf": false,
+   "e": "Not all incidents are mandatory to report — but failing to report under mandatory conditions can lead to enforcement actions.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 18,
+     "quote": "Not all incidents are mandatory to be reported to regulators or law enforcement agencies … Failure to report under mandatory conditions can lead to enforcement actions"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which describe the CENTRALISED IR team model? (tick all that apply)",
+   "o": [
+    "All resources and competencies are centralised in one location",
+    "A manager is responsible for the service",
+    "Global service with 24/7 coverage",
+    "Each regional manager is fully responsible for their own region"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The last option describes the distributed (decentralised) model.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 23,
+     "quote": "All resources and competencies are centralised in one location. • A manager is responsible for the service. • Global service with 24/7 coverage"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "H",
+   "q": "Which describe the COORDINATED IR team model? (tick all that apply)",
+   "o": [
+    "Resources are distributed to each region with a global team also present",
+    "A service manager is responsible for the service globally",
+    "A regional manager handles incidents in their own region",
+    "Regional and central resources coordinate during incidents",
+    "There is no global team at all"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "In some setups the regional team may just be a basic first responder.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 25,
+     "quote": "Coordination between regional and central resources during incident … In some setup, regional team may be just a basic first responder"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "When selecting an IR team model, why may full-time IR staff not be possible?",
+   "o": [
+    "It depends on funding",
+    "Regulators prohibit full-time IR staff",
+    "Full-time staff cannot work 24/7",
+    "IR work is always outsourced"
+   ],
+   "e": "Cost — including professional development — is also a key factor.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 27,
+     "quote": "Depending on funding, full time resource may not be possible."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "On STAFF EXPERTISE, how do internal staff compare with consultants?",
+   "o": [
+    "Internal staff know internal systems better but may not have the same expertise as consultants",
+    "Internal staff always have more expertise",
+    "Consultants always know internal systems better",
+    "There is no difference"
+   ],
+   "e": "A trade-off to weigh when choosing the staffing model.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 27,
+     "quote": "Internal staff would be more familiar with internal system, however, may not possess the same expertise as consultants."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "H",
+   "q": "Which OUTSOURCING considerations relate to operations across the enterprise? (tick all that apply)",
+   "o": [
+    "Can the provider quickly access and adapt to the enterprise's correlation engine?",
+    "Is the provider available in the required locations?",
+    "Is the provider's office close to the CEO's home?"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "Correlation and handling incidents at multiple locations are both listed.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 29,
+     "quote": "Can service provider quickly access and adapt to correlation engine deployed in the enterprise? … Is the service provider available in required locations?"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "How does NIST SP 800-61 rev3 shift the perspective on incident response?",
+   "o": [
+    "From primarily 'handling an incident' to managing IR as part of organisation-wide cybersecurity risk management",
+    "From risk management to purely technical response",
+    "From CSF to ISO 22301",
+    "From detection to prevention only"
+   ],
+   "e": "Rev3 focuses less on detailed incident-handling procedures than rev2.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 33,
+     "quote": "rev3 shifts the perspective from primarily \"handling an incident\" to managing incident response as part of organisation-wide cybersecurity risk management."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Why does the module still cover rev2 even though rev3 exists?",
+   "o": [
+    "Rev2 contains more operational details useful in practice, and many organisations still use it",
+    "Rev3 is not yet published",
+    "Rev2 aligns with CSF 2.0",
+    "Rev3 is only for the US government"
+   ],
+   "e": "Rev2 has detailed coverage of organising an IR capability and handling an incident.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 33,
+     "quote": "there are still many organisations who are still on rev2. … Which is why we still cover rev2 as it contains more operational details that can be useful for your career."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "H",
+   "q": "In the rev3 ransomware example, which CSF functions happen DURING the incident? (tick all that apply)",
+   "o": [
+    "Detect (DE)",
+    "Respond (RS)",
+    "Recover (RC)",
+    "Govern (GV)",
+    "Protect (PR)"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "GV, ID and PR happen BEFORE; ID (Improve) happens AFTER.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 35,
+     "quote": "During the incident • DETECT (DE) → Ransomware activity identified • RESPOND (RS) → Incident managed, contained and communicated • RECOVER (RC) → Systems/services restored"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "In the rev3 ransomware example, what falls under PROTECT (PR) before the incident? (tick all that apply)",
+   "o": [
+    "Access controls",
+    "Backups",
+    "Awareness",
+    "System protection",
+    "Lessons learned"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Lessons learned feed back AFTER the incident under ID (Improve).",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 35,
+     "quote": "PROTECT (PR) → Access controls, backups, awareness, system protection"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "In the rev3 ransomware example, what falls under GOVERN (GV)? (tick all that apply)",
+   "o": [
+    "IR policies",
+    "Responsibilities",
+    "Risk appetite",
+    "Oversight",
+    "Ransomware detection"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Detection is DE (during the incident).",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 35,
+     "quote": "GOVERN (GV) → IR policies, responsibilities, risk appetite, oversight"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "H",
+   "q": "Per rev3, when does the ability to respond to ransomware actually begin?",
+   "o": [
+    "Before the incident — effective IR depends on risk management activities before, during and after",
+    "Only when Detect identifies the ransomware",
+    "Only in Recover",
+    "Only after lessons learned"
+   ],
+   "e": "Handling may begin with Detect, but readiness is built through GV, ID and PR beforehand.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 35,
+     "quote": "The handling of the incident may begin with Detect, but rev3 recognises that effective Incident Response depends on cybersecurity risk management activities undertaken"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "What does 'Advisory Distribution' mean as an IR team peaceful-time service?",
+   "o": [
+    "Issuing advisories to other IT functional teams",
+    "Constantly monitoring for potential incidents",
+    "Running workshops and posters",
+    "Participating in ISACs"
+   ],
+   "e": "Monitoring = intrusion detection; workshops = education & awareness; ISACs = information sharing.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 32,
+     "quote": "Issue advisories to other IT functional teams."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "E",
+   "q": "Which peaceful-time IR service involves workshops, newsletters, posters and e-videos?",
+   "o": [
+    "Education and Awareness",
+    "Advisory Distribution",
+    "Intrusion Detection",
+    "Information Sharing"
+   ],
+   "e": "It disseminates information and awareness across the organisation.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 32,
+     "quote": "Disseminate information and awareness, such as workshops, newsletters, posters, e-videos, etc."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "Which are part of the IR plan's elements per L09? (tick all that apply)",
+   "o": [
+    "Organisational approach to incident response",
+    "Communication channels within and outside the organisation",
+    "Roadmap for maturity",
+    "Fitting the plan to the organisation",
+    "A list of every employee's salary"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also mission, strategies & goals, senior management approval and metrics.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 14,
+     "quote": "Organisational approach to incident response o Communication channels within and outside the organisation o Metrics (effectiveness and capability) o Roadmap for maturity o Fitting the plan to the organisation"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "What is an example of a regulator's mandatory incident reporting timeline from L09?",
+   "o": [
+    "Financial institutions report serious material incidents to MAS within an hour",
+    "All companies report every event to CSA within a week",
+    "Hospitals report to MOH once a year",
+    "ISPs never need to report"
+   ],
+   "e": "Failure to report under mandatory conditions can lead to enforcement action.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 18,
+     "quote": "Financial Services Institutions are required to report any serious material incidents within an hour to Monetary Authority of Singapore."
+    }
+   ]
+  },
+  {
    "t": "L10",
    "d": "E",
    "q": "What are the 4 phases of the NIST SP 800-61r2 IR life cycle?",
@@ -6430,6 +7010,837 @@
    ]
   },
   {
+   "t": "L10",
+   "d": "M",
+   "q": "An alternative ('Others') IR life cycle in L10 has which phases? (tick all that apply)",
+   "o": [
+    "Preparation",
+    "Detection",
+    "Containment",
+    "Monitoring & Resolution",
+    "Recovery & Closure",
+    "Lessons Learned"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "e": "Its sixth phase is Follow-Up. 'Lessons Learned' is the SANS GCIH term.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 6,
+     "quote": "1. Preparation 2. Detection 3. Containment 4. Monitoring & Resolution 5. Recovery & Closure 6. Follow-Up"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which commonalities do the NIST, SANS and other IR life cycles share? (tick all that apply)",
+   "o": [
+    "Some form of Preparation",
+    "Detection & Analysis",
+    "Containment, Eradication & Recovery",
+    "Post-incident activity (lessons learned / follow-up)",
+    "Procurement of security tools"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The module follows the NIST SP 800-61 rev2 life cycle.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 7,
+     "quote": "All the 3 previous different types of Life Cycle have commonalities, namely some form of: 1. Preparation 2. Detection & Analysis 3. Containment, Eradication & Recovery 4. Post-Incident Activity"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "The Preparation phase's key activities are: (tick all that apply)",
+   "o": [
+    "Preparing to handle incidents",
+    "Preventing incidents",
+    "Eradicating malware",
+    "Holding lessons-learned meetings"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "Preparation establishes capacity and capability in IR.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 11,
+     "quote": "Preparation Phase focuses on establishing capacity and capability in IR. Key activities include: • Preparing to handle incidents • Preventing incidents"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Why do organisations try to keep the number of incidents low despite having an IR capability?",
+   "o": [
+    "Too many incidents would overwhelm the IR team",
+    "Regulators fine every incident",
+    "IR teams are only for audits",
+    "Incidents cannot be detected anyway"
+   ],
+   "e": "Prevention reduces the IR workload.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 14,
+     "quote": "organisations try to keep the number of incidents low, otherwise it will overwhelm the IR team."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What does HOST SECURITY mean as a prevention activity?",
+   "o": [
+    "Hardening each workstation, server and appliance to minimise OS vulnerabilities",
+    "Segmenting the network by risk",
+    "Detecting malware at the perimeter only",
+    "Training users on phishing"
+   ],
+   "e": "Segmentation = network security; training = user awareness.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 14,
+     "quote": "Each workstation, server and appliances should be hardened to minimise vulnerabilities in operating system."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Where should malware be detected and stopped, per L10's prevention advice?",
+   "o": [
+    "At the point of detection — including end-points, servers and the network",
+    "Only at the email gateway",
+    "Only on servers",
+    "Only after it spreads"
+   ],
+   "e": "Malware can spread across the whole estate quickly.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 15,
+     "quote": "Malware should be detected and stopped at point of detection. o This includes end-points, servers, network."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are key activities of the Detection & Analysis phase? (tick all that apply)",
+   "o": [
+    "Understanding the various attack vectors",
+    "Looking for signs of an incident",
+    "Understanding sources of precursors and indicators",
+    "Incident analysis, documentation and prioritisation",
+    "Rebuilding compromised hosts"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Rebuilding hosts is eradication/recovery.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 16,
+     "quote": "Understanding the various attack vectors. • Looking for signs of an incident. • Understanding the sources of precursors and indicators."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "Spoofing and man-in-the-middle attacks fall under which attack vector?",
+   "o": [
+    "Impersonation",
+    "Attrition",
+    "Improper usage",
+    "Web"
+   ],
+   "e": "Attrition = DDoS/brute force; Web = XSS etc.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 17,
+     "quote": "Impersonation, such as spoofing, man-in-the-middle (MITM), etc."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "A stolen notebook falls under which attack vector?",
+   "o": [
+    "Loss or Theft of Equipment",
+    "External/Removable Media",
+    "Improper Usage",
+    "Impersonation"
+   ],
+   "e": "USB thumb drives are External/Removable Media.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 17,
+     "quote": "Loss or Theft of Equipment, such as theft of notebook, etc."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "A virus attachment falls under which attack vector?",
+   "o": [
+    "Email",
+    "Web",
+    "Attrition",
+    "External/Removable Media"
+   ],
+   "e": "Cross-site scripting is the Web example.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 17,
+     "quote": "Email, such as virus attachments, etc."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Some incidents have overt signs that are easy to detect, while others (think APTs) can be almost impossible to detect.",
+   "tf": true,
+   "e": "This is one reason accurate detection is the most challenging part of IR.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 18,
+     "quote": "Some incidents have overt signs that are easily detected; others can be almost impossible to detect (think APT!)"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "Users complain a server is unavailable. Why shouldn't this be assumed to be a DoS attack?",
+   "o": [
+    "Indicators can be inaccurate — it may be a misconfiguration",
+    "Users are never right",
+    "DoS attacks are always silent",
+    "Availability issues are never incidents"
+   ],
+   "e": "Indicators may be inaccurate, and their volume can be in thousands or millions a day.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 23,
+     "quote": "Users commonly complain of servers/services being unavailable - can be due to misconfiguration rather than actual DoS."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "The shadow password file has changed. Why might this NOT be an incident?",
+   "o": [
+    "It could be legitimate — an administrator or service adding an account",
+    "Shadow files never change",
+    "Only Windows systems matter",
+    "File changes are always benign"
+   ],
+   "e": "Even an accurate indicator doesn't guarantee an incident occurred.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 23,
+     "quote": "Shadow file has been changed - this can be a legitimate activity where an administrator/service added an account."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are examples of INDICATORS OF ATTACK (IoA)? (tick all that apply)",
+   "o": [
+    "IDS alert indicating a buffer overflow attempt",
+    "Multiple failed logins from an unfamiliar remote system",
+    "Unusual deviations from normal network traffic",
+    "Antivirus alert indicating malware infection"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "An AV malware alert is an Indicator of COMPROMISE.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 21,
+     "quote": "IDS alert indicating a buffer overflow attempt."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are examples of INDICATORS OF COMPROMISE (IoC)? (tick all that apply)",
+   "o": [
+    "Antivirus alert indicating malware infection",
+    "Unusual filenames discovered on a server",
+    "Unexpected changes to system auditing configurations",
+    "IDS alert of a buffer overflow attempt"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A buffer overflow ATTEMPT is an Indicator of Attack.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 21,
+     "quote": "Antivirus alert indicating malware infection. • Unusual filenames discovered on a server. • Unexpected changes to system auditing"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are ALERT sources of precursors and indicators? (tick all that apply)",
+   "o": [
+    "Intrusion Detection / Prevention Systems",
+    "Security Incident and Event Management (SIEM)",
+    "File / database integrity checking software",
+    "Operating system logs"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "OS logs fall under the separate 'Logs' category.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 22,
+     "quote": "Intrusion Detection System, Intrusion Prevention System o Security Incident and Event Management (SIEM) o File / Database Integrity Checking Software"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What should an incident-handling knowledge base include, per L10?",
+   "o": [
+    "Types of operating system logs and application error codes",
+    "Employees' personal contacts",
+    "Marketing material",
+    "Only past incident reports from other companies"
+   ],
+   "e": "Information handlers can reference quickly.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 25,
+     "quote": "Types of operating system logs ➢ Application error codes"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "Incident documentation must be safeguarded and access to it restricted.",
+   "tf": true,
+   "e": "It can contain sensitive details such as indicators and evidence.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 26,
+     "quote": "Incident data must be safeguarded and restricted"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "Which statements about incident prioritisation factors are correct? (tick all that apply)",
+   "o": [
+    "Functional impact considers current AND future impact if not contained",
+    "Information impact considers effects on CIA, especially exfiltration",
+    "Some incidents (e.g. loss of information) cannot be recovered",
+    "Recoverability effort should be weighed against the value gained",
+    "Prioritise purely by the order incidents were reported"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Size of incident and type of affected resources determine recovery time and resources.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 27,
+     "quote": "Consider current impact as well as future impact if the incident is not immediately contained … Consider impact on the CIA of information, especially on information exfiltration … In some cases, e.g. loss of information, incidents cannot be recovered."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "On L10's example severity scale, which is the HIGHEST tier?",
+   "o": [
+    "Severity 1",
+    "Severity 2",
+    "Severity 3",
+    "Severity 0"
+   ],
+   "e": "Sev 1 = highest potential impact; Sev 3 = minor.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 28,
+     "quote": "Severity 1: The highest tier with highest potential impact"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which statements about INCIDENT NOTIFICATION are correct? (tick all that apply)",
+   "o": [
+    "Pre-defined stakeholders are notified based on defined severity",
+    "Level of detail and frequency are pre-determined",
+    "Notification can be one-way or ask for a response (two-way)",
+    "Every incident is announced to the public immediately"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Channels include email, website, social media, in-person, IVR and paper.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 30,
+     "quote": "Based on defined severity, a set of pre-defined stakeholders must be made aware. • Level of details and frequency are pre-determined."
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 31,
+     "quote": "Notification (one-way) o Response requested (two-way)"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "CONTAINMENT refers to:",
+   "o": [
+    "Limiting the spread of the incident to other systems, keeping exposure manageable",
+    "Eliminating the cause of the incident",
+    "Returning to normal operation",
+    "Collecting lessons learned"
+   ],
+   "e": "Eradication eliminates the cause; recovery returns to normal operation.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 34,
+     "quote": "Containment refers to the effort to limit spread of incidents to other system. o This keep the exposure manageable to handle."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "The same containment strategy should be used for every type of incident.",
+   "tf": false,
+   "e": "Containment strategies vary — e.g. handling DoS differs from handling malware.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 35,
+     "quote": "Containment strategies vary depending on the incidents. o E.g.: Actions to handle DoS is different from handling malware."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Why might DISCONNECTING an infected host from the network cause more damage?",
+   "o": [
+    "Some malware encrypts or deletes the disk when it detects disconnection",
+    "It always spreads the malware",
+    "It voids the system warranty",
+    "It is illegal"
+   ],
+   "e": "Containment must be done carefully to avoid further damage.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 36,
+     "quote": "Some malware will immediately encrypt or delete hard drive data upon detecting they are disconnected from the network."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which details are usually collected when gathering evidence? (tick all that apply)",
+   "o": [
+    "Identification (serial number, IP, MAC, hostname)",
+    "Contact details of whoever collected or handled the evidence",
+    "Time and date (chronological log)",
+    "Location where the evidence was stored",
+    "The attacker's home address"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "This supports chain of custody. See NIST SP 800-86 for forensic techniques.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 38,
+     "quote": "Identification (Serial number, IP address, MAC address, model, asset numbers, hostname, etc.). … Location where evidence was stored."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which NIST publication guides integrating forensic techniques into incident response?",
+   "o": [
+    "NIST SP 800-86",
+    "NIST SP 800-34",
+    "NIST SP 800-53",
+    "NIST SP 800-84"
+   ],
+   "e": "800-34 = contingency planning; 800-53 = controls; 800-84 = test, training & exercise programmes.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 38,
+     "quote": "Refer to NIST SP 800-86 for \"Guide to Integrating Forensic Techniques into Incident Response\" on preserving evidence."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are common activities to identify attacking hosts? (tick all that apply)",
+   "o": [
+    "Validating the attacker's host IP",
+    "Researching the attacker's host through a search engine",
+    "Using an incident database",
+    "Monitoring possible attacker communication channels (e.g. IRC)",
+    "Hacking back into the attacker's network"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Balance this against the time needed to contain, eradicate and recover.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 39,
+     "quote": "Validating attacker's host IP. o Researching attacker's host through search engine. o Using incident database. o Monitoring possible attacker communication channels (e.g. IRC)."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Why must ALL affected hosts be identified during eradication?",
+   "o": [
+    "Otherwise the incident may re-occur",
+    "To fill in the regulator's form",
+    "Because backups require it",
+    "To identify the attacker"
+   ],
+   "e": "Partial remediation leaves the attacker a way back in.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 40,
+     "quote": "important to identify ALL affected hosts so as to completely remediate incidents o Otherwise incident may re-occur."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What preparation does a clean rebuild of affected systems require?",
+   "o": [
+    "System administrators must know how to re-install and configure systems beforehand",
+    "None — rebuilds are instant",
+    "Only a new firewall",
+    "Approval from law enforcement"
+   ],
+   "e": "Rebuilds take lots of time and effort, so organisations must be prepared ahead of time.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 41,
+     "quote": "Systems administrators must know how to re-install and configure systems beforehand"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "E",
+   "q": "Which are key activities of the Post-Incident phase? (tick all that apply)",
+   "o": [
+    "Lessons learned",
+    "Using collected incident data",
+    "Evidence retention",
+    "Choosing a containment strategy"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Choosing a containment strategy belongs to Containment, Eradication & Recovery.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 43,
+     "quote": "Lessons Learned • Using Collected Incident Data • Evidence Retention"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "What are the benefits of holding a lessons-learned meeting? (tick all that apply)",
+   "o": [
+    "Apply more effective preventive controls so incidents aren't repeated",
+    "Improve the incident handling life cycle (e.g. update SOPs, identify tools)",
+    "A good opportunity to train new incident handlers",
+    "To decide which staff to dismiss"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A follow-up report should also be created for each incident.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 44,
+     "quote": "Apply more effective preventive controls so that incidents are not repeated. … Good opportunity to train new incident handlers."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which are example metrics from collected incident data? (tick all that apply)",
+   "o": [
+    "Number of incidents handled",
+    "Time and resources used per incident",
+    "Achievement on each incident handled",
+    "Number of emails sent company-wide"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "These help justify existing and future investment in IR.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 45,
+     "quote": "Number of incidents handled. o Time and resources used per incident. o Achievement on each incident handled."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which factors decide how long evidence should be retained? (tick all that apply)",
+   "o": [
+    "Prosecution — keep until legal actions are completed",
+    "Data retention laws and regulations for the country/industry",
+    "Storage cost alone",
+    "The attacker's preference"
+   ],
+   "m": [
+    0,
+    1
+   ],
+   "e": "Prosecution can take years in some cases.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 46,
+     "quote": "If attacker is to be prosecuted, then evidence need to be retained until legal actions are completed. … Depending on country and industry, there could be legal/regulatory requirements."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which describe CERT Société Générale's IRM? (tick all that apply)",
+   "o": [
+    "Developed by CERT Société Générale with contributions from CERT aDvens",
+    "Provides practical, incident-specific guidance",
+    "Available in multiple languages",
+    "Freely accessible through GitHub",
+    "A paid SIEM product"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Designed as operational reference material for incident handlers.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 9,
+     "quote": "Provides practical, incident-specific guidance. … Available in multiple languages. … Freely accessible through GitHub."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "In rev3's examples, what priority is given to DE.CM-03 (monitoring personnel activity and technology usage)?",
+   "o": [
+    "High",
+    "Low",
+    "Medium",
+    "None"
+   ],
+   "e": "GV.RM-01 was Low and GV.RM-03 Medium in the examples shown.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 48,
+     "quote": "Personnel activity and technology usage are monitored to find potentially adverse High events"
+    }
+   ],
+   "src_note": "On the slide the 'High' priority value sits in the table row text."
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Which items help analyse incidents (Incident Analysis Hardware & Software)? (tick all that apply)",
+   "o": [
+    "Digital forensics workstation",
+    "Backup devices to create disk images",
+    "Digital forensics software to analyse disk images",
+    "A war room"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "A war room is under Incident Handling Communications & Facilities.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 12,
+     "quote": "Digital forensics workstation and backup devices to create disk images, etc. … Digital forensics software to analyse disk images, etc."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Why is having to look at hundreds, thousands or millions of alerts a problem for IR teams?",
+   "o": [
+    "Investigation takes time but teams are small, causing fatigue and loss of morale",
+    "Alerts are always false",
+    "It is illegal to ignore any alert",
+    "Alerts cannot be stored"
+   ],
+   "e": "One of the three challenges of detecting incidents.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 18,
+     "quote": "Time is taken for investigation but team size is small. This can result in fatigue and loss of morale."
+    }
+   ]
+  },
+  {
    "t": "L11",
    "d": "E",
    "q": "In which exercise type do participants DISCUSS their responses to a scenario, with 'injects' building complexity?",
@@ -7111,6 +8522,856 @@
      "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
      "page": 7,
      "quote": "A controlled, interactive technology environment … The range simulates the worst possible attacks on ICT infrastructure"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "E",
+   "q": "Which analogies does L11 use for why cyber security exercises help? (tick all that apply)",
+   "o": [
+    "Improving cyber security fitness",
+    "Reducing stress",
+    "Building muscle memory",
+    "Winning a lottery"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Like physical exercise keeps you in shape, cyber exercises keep the organisation in 'cyber-shape'.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 3,
+     "quote": "Improving Cyber Security Fitness • Reducing Stress with Cyber Security Exercises • Using Cyber Security Exercises to Build Muscle Memory"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "E",
+   "q": "Which is NOT a 'simulated environment' type of cyber security exercise?",
+   "o": [
+    "Table-top",
+    "Functional",
+    "Cyber range",
+    "Red/blue team exercise (a form of functional)"
+   ],
+   "e": "Table-top is discussion-based; simulated environment covers functional and cyber range.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 4,
+     "quote": "Simulated Environment o Functional … Cyber Range"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "How can a table-top exercise help an organisation? (tick all that apply)",
+   "o": [
+    "Identify cybersecurity gaps, especially in IR plans",
+    "Review existing recovery plans after threat incidents",
+    "Validate cybersecurity planning protocols and priorities",
+    "Improve cybersecurity training practices",
+    "Patch all systems automatically"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "It also generates new ideas for gaps in recovery protocols.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 5,
+     "quote": "Identifying cybersecurity gaps, especially those in incident response plans … Reviewing existing recovery plans following threat incidents • Validating cybersecurity planning protocols and priorities … Improve cybersecurity training practices"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "In a functional exercise, when less realism is needed, certain actions can be simulated.",
+   "tf": true,
+   "e": "Functional exercises have differing levels of realism.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 6,
+     "quote": "A functional exercise has differing levels of realism. When less realism is required, certain actions can be simulated."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Where do functional exercises test people, processes and equipment?",
+   "o": [
+    "Where they normally work (e.g. a desk or cubicle), not a conference room",
+    "Only in a conference room",
+    "Only in a cyber range",
+    "Only on paper"
+   ],
+   "e": "More time, effort and disruption — but a better test of a real crisis.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 6,
+     "quote": "they test people, processes, and equipment where they normally work (like at a desk or a cubicle, as opposed to a conference room)."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What makes red teaming a strong test of an organisation's defences?",
+   "o": [
+    "Defences are judged on actual performance against real-world techniques, not theoretical tool capabilities",
+    "It only reviews documentation",
+    "It uses no attack techniques",
+    "It is always done by regulators"
+   ],
+   "e": "Red teaming systematically and ethically finds an attack path through real-world techniques.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 9,
+     "quote": "the organization's defenses are based not on the theoretical capabilities of security tools and systems, but their actual performance in the presence of real-world threats."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "Which are steps in the red team exercise METHODOLOGY? (tick all that apply)",
+   "o": [
+    "Initial reconnaissance using intelligence repositories and OSINT",
+    "Gain initial access by exploiting vulnerabilities or social engineering",
+    "Escalate privileges and establish persistence with command-and-control",
+    "Accomplish objectives through non-disruptive means",
+    "Cause maximum disruption to production"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Objectives must be achieved non-disruptively.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 10,
+     "quote": "Once the objectives are set, the red team starts by conducting initial reconnaissance. … the red team attempts to escalate privileges to establish and maintain persistence within the environment by deploying a command and control infrastructure … the red team attempts to accomplish its objectives through any non-disruptive means necessary"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which red team Rules of Engagement questions does L11 raise? (tick all that apply)",
+   "o": [
+    "Does the red team start with information (white box) or none (black box)?",
+    "What intelligence does the vendor already have on high-risk assets in your industry?",
+    "What objectives should the red team accomplish?",
+    "What is the red team's favourite programming language?"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "ROEs are agreed before the exercise.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 10,
+     "quote": "Does the red team begin its effort with information about your environment (white box) or with no information at all (black box)? … What objectives do you want the red team to accomplish in simulating a real-world attack?"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Who typically makes up the BLUE team?",
+   "o": [
+    "Incident response consultants guiding the IT security team on improvements",
+    "The external attackers",
+    "The regulator",
+    "Only the CEO"
+   ],
+   "e": "The IT security team then maintains the network against risks.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 11,
+     "quote": "Typically, this group consists of incident response consultants who provide guidance to the IT security team on where to make improvements"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What happens in a BLUE team exercise? (tick all that apply)",
+   "o": [
+    "The red team attacks assets to exploit vulnerabilities",
+    "The blue team detects, blocks and mitigates, isolating infected assets",
+    "Afterwards the red team discusses its attack methods",
+    "The blue team uses this to prioritise changes",
+    "The blue team attacks the red team's home network"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Blue team exercises model threats probable to cause a loss event today.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 11,
+     "quote": "the blue team's goal is to respond to the attacks and perform the necessary measures to isolate infected assets. … At the end of the blue team exercise, the red team will discuss the attack methods and their actions afterward."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "Which organisational resources should be assessed during a TTX? (tick all that apply)",
+   "o": [
+    "Membership of the Computer Incident Response Team (CIRT)",
+    "Alert monitoring systems for detection and continuous monitoring",
+    "Forensics tools availability and secure backups",
+    "Security and availability of communications systems",
+    "Office furniture"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also IR training resources and document repositories.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 18,
+     "quote": "Membership of the Computer Incident Response Team (CIRT) … Alert monitoring systems for incident detection and continuous monitoring"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which feedback questions should be asked after a TTX? (tick all that apply)",
+   "o": [
+    "Was the scenario realistic for the business model and security posture?",
+    "Is everyone familiar with the Incident Response Plan?",
+    "Can IR members handle crisis situations and use tools proficiently?",
+    "Were escalations to management appropriate and timely?",
+    "Who should be blamed?"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Feedback forms are typically distributed immediately after the exercise.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 19,
+     "quote": "Was the incident scenario presented in the TTX realistic for your company business model, processes, and current security posture? … Are escalations to company management handled appropriately, with the correct level of information and"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What does INTERNAL MANAGEMENT need from the response? (tick all that apply)",
+   "o": [
+    "Answers to 'When', 'How' and 'What'",
+    "Focus on containment and recovery",
+    "Root cause analysis to answer the questions",
+    "An incident management structure with classification criteria (High/Medium/Low)",
+    "Immediate press conferences before any analysis"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The structure also defines who chairs the committee and decides actions by severity.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 22,
+     "quote": "Answer the questions of \"When\", \"How\" and \"What\" … There will be a need to perform Root Cause Analysis (RCA) … Will include criteria for classification of cybersecurity incidents (e.g. High, Medium, Low)"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What do CUSTOMERS/CLIENTS want to know during an incident? (tick all that apply)",
+   "o": [
+    "How the incident will impact them",
+    "How the organisation will compensate them or mitigate the impact",
+    "Regular status updates per a pre-defined SOP",
+    "The attacker's identity before anything else"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Poor handling damages reputation and trustworthiness.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 23,
+     "quote": "Client/Customer will want to know how this incident will impact them and if so how will the organization compensate them or mitigate the impact … There should be a pre-defined SOP on what and how to inform the customer and client and the frequency to provide status update"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which regulator–sector pairings appear in L11? (tick all that apply)",
+   "o": [
+    "MAS — Banking & Finance",
+    "IMDA — Telecommunication & Media",
+    "CSA — national cybersecurity authority issuing the CCoP",
+    "MOH — all internet service providers"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Regulated entities must also comply with national cybersecurity regulation.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 24,
+     "quote": "Regulator for Banking & Finance - Monetary Authority of Singapore (MAS) … Regulator for Telecommunication & Media - Infocomm Media Development Authority (IMDA) … The national cybersecurity authority for SG is the Cyber Security Agency (CSA)"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "How should MEDIA be handled during a cyber incident? (tick all that apply)",
+   "o": [
+    "Prepared media engagement processes driven by corporate communications",
+    "Coordinate public statements with the sector regulator and national authority",
+    "Validate media-handling SOPs through exercises",
+    "Let every engineer respond to reporters directly"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Poor media handling hurts reputation and trustworthiness.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 26,
+     "quote": "Important that there are prepared media engagement processes in place (driven by the corporate communications team of the organization) … Will likely need to co-ordinate with the sector regulator and the national cybersecurity authority on the media and/or public statements"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What does the Concept Development Meeting focus on? (tick all that apply)",
+   "o": [
+    "Identifying objectives",
+    "Participating organisations",
+    "Exercise style and scenario",
+    "Possible locations and resources needed",
+    "Writing the After Action Report"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "It should also draw on lessons learned from prior exercises.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 30,
+     "quote": "Meeting focus on identifying the objectives, participating organizations, exercise style, scenario, possible locations, and resources needed to facilitate the exercise."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Who should attend the Initial Planning Meeting (IPM)?",
+   "o": [
+    "All internal and external planners associated with the exercise",
+    "Only the CEO",
+    "Only the red team",
+    "Only the exercise body"
+   ],
+   "e": "Organisation planners are made accountable for their action items.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 32,
+     "quote": "IPM occurs 2 to 8 weeks after the CDM and should include all of the internal and external planners associated with the exercise"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "What happens at the MSEL Planning Meeting (MPM)? (tick all that apply)",
+   "o": [
+    "Clearly define all injects needed for the scenario",
+    "Work through technical and non-technical details of each inject",
+    "Outline injects that drive objectives without overwhelming the audience",
+    "Understand the training audience's capabilities",
+    "Make the final GO/NO GO decision"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "GO/NO GO is decided at the FPM.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 34,
+     "quote": "Clearly define all of the injects needed to support the exercise scenario … Planners outline a series of injects that will drive the objectives of the exercise but not … Understand the characteristics of the training audience"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which are products of the MSEL Planning Meeting? (tick all that apply)",
+   "o": [
+    "A draft of the exercise MSEL",
+    "A refined scenario based on red team capability, realism and operational risk",
+    "Assigned action items, completion dates and POCs",
+    "The signed final ROE"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "The signed final ROE comes from the FPM.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 36,
+     "quote": "Draft of the exercise MSEL … Refined exercise scenario based on RT capability, realism of the scenario, and anticipated operational risk"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which statements about the MSEL are correct? (tick all that apply)",
+   "o": [
+    "It regulates simulated events by coordinating participants' actions",
+    "It defines the schedule of events",
+    "It should keep all participants active throughout",
+    "It is written after the exercise ends"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "It is planned carefully so key events lead to the exercise objectives.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 35,
+     "quote": "Regulates simulated events by coordinating the actions of participants and defining the schedule of events. … all participants remain active throughout the duration of the event"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "In 'Scenario Alpha', which are expected actions after the ransomware event? (tick all that apply)",
+   "o": [
+    "Activate the cyber incident response team",
+    "Implement the Cyber Intrusion Response Plan",
+    "Notify and coordinate with customers and stakeholders",
+    "Take actions to recover the system",
+    "Pay the ransom immediately"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Objectives include familiarising staff and validating the plan.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 38,
+     "quote": "Activate cyber incident response team … Implement Cyber Intrusion Response Plan … Notify and coordinate with customers and other stakeholders"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which statements about exercise SCENARIOS are correct? (tick all that apply)",
+   "o": [
+    "A narrative drives the storyline of the exercise",
+    "It describes an imaginary situation in a geographic environment and/or time",
+    "It usually escalates from simple incidents to more sophisticated ones",
+    "It must stay at one fixed severity throughout"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Escalation lets serious consequences emerge as the exercise progresses.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 46,
+     "quote": "A narrative or scenario drives the storyline for the exercise. … The scenario usually escalates from simple incidents to more sophisticated ones."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What can injects be used for? (tick all that apply)",
+   "o": [
+    "To plot out the story",
+    "To speed up or slow down the play",
+    "To add information",
+    "To pose questions for participants to answer",
+    "To grade individual salaries"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Injects are short pre-scripted messages that prompt participants to act.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 47,
+     "quote": "They may be used to plot out the story, to speed up, or slow down the play. o They may act as additional information, or can include one or more questions to be answered."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "How should time limits for injects be set?",
+   "o": [
+    "Allow time to read and discuss in the team, while still creating time pressure",
+    "As short as possible so nobody can finish",
+    "No time limits at all",
+    "Only after the exercise"
+   ],
+   "e": "Dealing with time pressure is a vital part of an exercise.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 48,
+     "quote": "choose such deadlines that provide responders time to read assignments and discuss them in the team, but still feel under increased time pressure."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which sections are in L11's After Action Report outline? (tick all that apply)",
+   "o": [
+    "Introduction",
+    "Scope",
+    "Objectives",
+    "Scenario",
+    "Findings and recommendations",
+    "Exercise budget breakdown"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "e": "The AAR also lists participants and survey feedback.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 52,
+     "quote": "SAMPLE INTRODUCTION … SAMPLE SCOPE"
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 53,
+     "quote": "SAMPLE OBJECTIVES"
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 2,
+     "quote": "Sample Scenario"
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 54,
+     "quote": "SAMPLE EXERCISE FINDINGS"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "Which are sample AAR exercise objectives? (tick all that apply)",
+   "o": [
+    "Identify interdependencies, overlaps and inconsistencies between plans",
+    "Validate the team's ability to recover IT operations at an alternate facility",
+    "Validate the accuracy of documented recovery procedures",
+    "Identify areas of the plans that need revising",
+    "Reduce the IT budget"
+   ],
+   "m": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Also validate the plans and familiarise staff with responsibilities.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 53,
+     "quote": "Identify interdependencies, overlaps, and inconsistencies between the two plans o Validate the team's ability to recover IT operations at alternate facility … Validate the accuracy of recovery procedures documented in the plans"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What does the 'Cloud Compromise' sample scenario test?",
+   "o": [
+    "Third-party incident response to an external threat on a cloud asset",
+    "Interdepartmental finance procedures",
+    "Emergency ransomware response",
+    "Malware via USB"
+   ],
+   "e": "A cloud provider breach exposes your sensitive data.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 59,
+     "quote": "This scenario is testing the organization's third-party incident response caused by an external threat on a cloud asset."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "What does the 'Peculiar Payments' sample scenario test?",
+   "o": [
+    "Interdepartmental communication and procedures",
+    "Third-party cloud response",
+    "Physical security",
+    "Backup restoration speed"
+   ],
+   "e": "Unauthorised monthly payments via a SaaS app only three controllers could access.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 62,
+     "quote": "This scenario is testing the organization's interdepartmental communication and procedures."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "In the 'Peculiar Payments' scenario, how were the payments made?",
+   "o": [
+    "An external threat actor broke into one controller's SaaS account and approved them",
+    "A bank teller made an error",
+    "A DDoS attack",
+    "A lost USB drive"
+   ],
+   "e": "Payments went to an offshore account.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 60,
+     "quote": "an external threat actor has successfully broken into one of the controller's accounts and approved the payments."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "In the 'Ransomware' sample scenario, how much do the criminals demand?",
+   "o": [
+    "$5 million within a week",
+    "$1 million within a day",
+    "$139,875",
+    "Nothing — they only leak data"
+   ],
+   "e": "The CMO's account was compromised via targeted phishing after record profits made the news.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 63,
+     "quote": "The criminals are demanding $5 million in exchange for the information."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "E",
+   "q": "In the 'Malware' sample scenario, how did malware reach the network?",
+   "o": [
+    "A thumb drive used on a personal computer and then on a work station",
+    "A phishing email",
+    "A cloud breach",
+    "A rogue Wi-Fi access point"
+   ],
+   "e": "This scenario tests malware detection, prevention and resolution processes.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 66,
+     "quote": "An employee plugged a thumb drive into her personal computer to"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "In the ransomware sample inject #2, what is the status? (tick all that apply)",
+   "o": [
+    "Ransomware contained but the key system is fully encrypted",
+    "PII and credit card data confirmed exfiltrated",
+    "Backup affected; last good copy is 1 month old",
+    "Users already informed"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "Users have NOT been informed yet; DR and downtime systems are also unavailable.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 38,
+     "quote": "Ransomware has been contained but key system has been fully encrypted."
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 71,
+     "quote": "Backup has also been affected and last good copy is 1 month ago."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "Which references for cyber exercises does L11 list? (tick all that apply)",
+   "o": [
+    "NIST SP 800-84 (Guide to Test, Training, and Exercise Programs)",
+    "MITRE Cyber Exercise Playbook",
+    "ENISA cyber exercises",
+    "NIST SP 800-86"
+   ],
+   "m": [
+    0,
+    1,
+    2
+   ],
+   "e": "NIST SP 800-86 is about forensic techniques (L10).",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 72,
+     "quote": "Special Publication 800-84 (Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities) … MiTRE Cybersecurity Exercise Playbook"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "The planners of an exercise can be a paid service from a vendor.",
+   "tf": true,
+   "e": "But they should not include the team being exercised, to avoid conflict of interest.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 44,
+     "quote": "It can also be paid service from a vendor."
     }
    ]
   },
