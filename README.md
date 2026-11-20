@@ -5,7 +5,7 @@ A revision quiz for **Operations Security & Incident Management**, available in 
 - **Streamlit:** `app.py`
 - **Static HTML for GitHub Pages:** `index.html`
 
-The quiz has 633 questions across 21 categories. 230 of them are select-all-that-apply, which both versions show first. When a select-all question asks about a list from the notes, every item on that list appears as an option. Lectures 9–11 (Incident Response 1 & 2, Cyber Security Exercise) have extra coverage: 53, 75 and 66 questions, against roughly 32 for each other lecture. The categories are one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
+The quiz has 713 questions across 21 categories. 272 of them are select-all-that-apply, which both versions show first. When a select-all question asks about a list from the notes, every item on that list appears as an option. Lectures 9–11 (Incident Response 1 & 2, Cyber Security Exercise) have extra coverage: 53, 76 and 78 questions, against roughly 40 for each other lecture. The categories are one per lecture (L01–L12) and one each for the supporting materials (NIST SP 800-34 / 800-61r2, ISO 22301/22313, the CSA CCoP, the Counter-Ransomware Task Force report, CIS Controls v8.1, Verizon DBIR 2026, the WEF Global Risks Report 2026, BCBS/IMF operational risk, and the FEMA/DHS/SANS/SBF BCP guides).
 
 It is unofficial and not guaranteed 100% accurate. If something looks off, check the source slides.
 
