@@ -924,6 +924,32 @@
    ]
   },
   {
+   "t": "L01",
+   "d": "M",
+   "q": "A CEO says 'our BAU operations are so efficient that nothing else matters.' Based on the CEO Perspectives paper, which statements are correct? Select all relevant statements.\nI. No CEO advocated effective BAU as the ideal.\nII. Highly fine-tuned BAU operations can be very vulnerable to disruptions.\nIII. Every CEO saw the ability to change and adapt as fundamental.\nIV. Shaping the environment is a short-term concept.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "Shaping the environment is the LONG-term horizon.",
+   "src": [
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 20,
+     "quote": "NO CEOs advocate this idea as ideal … highly fine-tuned BAU operations can be highly vulnerable to disruptions"
+    },
+    {
+     "doc": "L01 Organisational Resilience (slides)",
+     "path": "week 1/L01-Org Resilience v1b-hm-02Sep2026.pdf",
+     "page": 21,
+     "quote": "EVERY CEO see this as fundamental"
+    }
+   ]
+  },
+  {
    "t": "L02",
    "d": "E",
    "q": "Which source defines a threat simply as 'anything that can result in harm'?",
@@ -1860,6 +1886,53 @@
    ]
   },
   {
+   "t": "L02",
+   "d": "M",
+   "q": "Match each event to its threat category. Which pairings are correct? Select all relevant statements.\nI. A typhoon floods the data centre — Forces of nature\nII. A faulty software update crashes thousands of PCs — Technical software failures or errors\nIII. A power and WAN outage at the ISP — Deviations in quality of service from service provider\nIV. Running unsupported legacy systems — Deliberate software attacks",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "Antiquated or outdated technologies = Technological obsolescence.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 9,
+     "quote": "Fire, flood, earthquake, lightning … Bugs, code problems, unknown loopholes … Power and WAN issues … Antiquated or outdated technologies"
+    }
+   ],
+   "src_note": "The slide is a table of threat categories and examples."
+  },
+  {
+   "t": "L02",
+   "d": "M",
+   "q": "An employee emails the customer list to a personal account to work from home, with no malicious intent. What BEST describes this?",
+   "o": [
+    "An unintentional insider threat to confidentiality",
+    "A deliberate act of sabotage against availability",
+    "A force of nature",
+    "A technical hardware failure"
+   ],
+   "e": "Threat sources include insiders and unintentional actions; data viewable by unauthorised parties is a confidentiality threat.",
+   "src": [
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 7,
+     "quote": "Employees • Contractors"
+    },
+    {
+     "doc": "L02 Business & Technology Threats (slides)",
+     "path": "week 2/L02-Business and Technology Threats-v1-hm-7Aug2026.pdf",
+     "page": 12,
+     "quote": "Confidentiality, i.e. when assets accessible and viewable by unauthorized parties"
+    }
+   ]
+  },
+  {
    "t": "L03",
    "d": "M",
    "q": "Which BCM definition emphasises 'ensuring uninterrupted availability of all key business resources required to support critical business activities, whether manual or IT-enabled'?",
@@ -2492,11 +2565,13 @@
    "d": "M",
    "q": "Which ISO 22301 clauses describe the PLAN component (per L03)? (tick all that apply)",
    "o": [
-    "Clause 4 (context)",
-    "Clause 5 (leadership)",
-    "Clause 6 (planning objectives)",
-    "Clause 7 (support)",
-    "Clause 8 (operation)"
+    "Clause 4 — establishing the context of the BCMS: business needs, legal & regulatory requirements, scope",
+    "Clause 5 — top management's role and the leadership policy statement",
+    "Clause 6 — establishing the strategic objectives and principles of the BCMS",
+    "Clause 7 — competence of the people doing BCMS and the communication processes",
+    "Clause 8 — how to do the risk assessment and BIA",
+    "Clause 9 — what and how to monitor performance",
+    "Clause 10 — what actions to take in order to improve"
    ],
    "m": [
     0,
@@ -2504,13 +2579,19 @@
     2,
     3
    ],
-   "e": "Clause 8 = Do, 9 = Check, 10 = Act.",
+   "e": "Clauses 4–7 are the PLAN component (context, leadership, objectives, support). Clause 8 (risk assessment & BIA) is DO, Clause 9 (monitoring performance) is CHECK, and Clause 10 (improvement actions) is ACT.",
    "src": [
     {
      "doc": "L03 BCM 1 (slides)",
      "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
      "page": 17,
-     "quote": "Describes the Plan component. Introduces requirements to establish context of BCMS."
+     "quote": "Describes the Plan component. Introduces requirements to establish context of BCMS. E.g.: what are business needs, legal & regulatory requirements, scope of BCMS … Summarises the requirements specific to top management's role and how leadership articulates expectations via a policy statement. … Describes requirements on establishing strategic objectives and principles of BCMS. … what are the competence of people doing BCMS, what's the communication processes like"
+    },
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 18,
+     "quote": "Describes the Do component. E.g.: how to do risk assessment, BIA … Describes the Check component. E.g.: what and how to monitor performance … Describes the Act component. E.g.: what actions should be taken in order to improve"
     }
    ]
   },
@@ -3623,6 +3704,111 @@
    ]
   },
   {
+   "t": "L04",
+   "d": "H",
+   "q": "A payment system fails at 09:00. IT restores the system at 11:00 and staff finish verifying transactions and resume business at 11:30. Which statements are correct? Select all relevant statements.\nI. The RTO achieved was 2 hours.\nII. The WRT was 30 minutes.\nIII. The total downtime must stay within the MTD.\nIV. The RPO was 2.5 hours.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "RTO = failure → system restored; WRT = restored → business resumed; MTD = RTO + WRT. RPO is about data loss (time since the last backup), not downtime.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 8,
+     "quote": "Recovery Time Objective (RTO) is the target duration of time to recover a specific business function."
+    },
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 9,
+     "quote": "MTD refers to the longest moment of disruption before survivability of the organisation is seriously threatened."
+    },
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 8,
+     "quote": "RPO is crucial for determining the frequency of backup."
+    }
+   ],
+   "src_note": "Worked example using the RTO/WRT/MTD timeline from the slide diagram (as in the SGX exercise)."
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "A trading database has an RPO of 15 minutes, but backups run nightly at midnight. What is the issue?",
+   "o": [
+    "Backups must run at least every 15 minutes to meet the RPO",
+    "Nothing — nightly backups meet any RPO",
+    "The RTO must be increased instead",
+    "The MTD is too short"
+   ],
+   "e": "If RPO is 4 hours, backup is required at least every 4 hours — the same logic applies here.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 8,
+     "quote": "If a RPO is 4 hours, then backup is required at least every 4 hours."
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "A retailer wants the most realistic test of its BCP across the WHOLE organisation and can afford to do it only every few years. Which exercise type fits?",
+   "o": [
+    "Full-scale exercise",
+    "Seminar",
+    "Table-top",
+    "Workshop"
+   ],
+   "e": "Full-scale exercises are the most realistic for the whole organisation, typically run once every few years.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 21,
+     "quote": "Full-scale exercise • The top exercise and the most realistic for the whole organisation"
+    },
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 22,
+     "quote": "Frequency: 1. Once every few years: • Full-scale exercises"
+    }
+   ]
+  },
+  {
+   "t": "L04",
+   "d": "M",
+   "q": "Who should own the Business Continuity Plan, given L04's distinction between BCP and DRP?",
+   "o": [
+    "The business — BCP is strategic and focuses on critical business operations",
+    "The IT department — BCP is tactical",
+    "The external auditor",
+    "The regulator"
+   ],
+   "e": "BCM is business-owned and business-driven; the DRP is tactical, recovering IT assets.",
+   "src": [
+    {
+     "doc": "L04 BCM 2 (slides)",
+     "path": "week 4/L04-Business Continuity Management 2 v1.0-22Sep2026.pdf",
+     "page": 31,
+     "quote": "BCP focuses on strategic level, where the key considerations are to recover/sustain/resume/restore critical business operations"
+    },
+    {
+     "doc": "L03 BCM 1 (slides)",
+     "path": "week 3/L03-Business Continuity Management 1 v1.0  15Sep2026.pdf",
+     "page": 7,
+     "quote": "is a business-owned, business-driven process"
+    }
+   ]
+  },
+  {
    "t": "L05",
    "d": "E",
    "q": "For the DR lifecycle, this module follows which reference?",
@@ -4633,6 +4819,92 @@
    ]
   },
   {
+   "t": "L05",
+   "d": "M",
+   "q": "A firm picks a backup data centre two streets away from its primary site to save cost. What is the main risk?",
+   "o": [
+    "It suffers from the same vulnerabilities (e.g. the same flood or power outage)",
+    "It has the highest cost",
+    "It faces conflicting regulations",
+    "It is too hard to connect to"
+   ],
+   "e": "In-city sites are cheap and easy to manage but don't add much resilience.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 31,
+     "quote": "Suffers from the same vulnerabilities"
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "There is no damage to systems, but there is a fatal casualty on the office premises. Should the contingency plan be activated?",
+   "o": [
+    "Yes — only one activation criterion needs to be met",
+    "No — all criteria must be met",
+    "No — only system damage counts",
+    "Only if the regulator agrees"
+   ],
+   "e": "Safety of personnel is one of the activation criteria.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 48,
+     "quote": "Not all criteria must be met, only one will serve as trigger point. • For example: No disaster, but there is a fatal casualty in the office premises."
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "The DR team backs up data on the contingency system, uploads it to the restored system, shuts the contingency system down and returns staff to the original facility. Which phase is this?",
+   "o": [
+    "Reconstitution",
+    "Recovery",
+    "Notification/Activation",
+    "Plan maintenance"
+   ],
+   "e": "Recovery 'gets things working'; reconstitution returns to normal operations.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 57,
+     "quote": "Backing up data on the contingency system and uploading to restored system • Shutting down the contingency system … Arranging for recovery personnel to return to the original facility."
+    }
+   ]
+  },
+  {
+   "t": "L05",
+   "d": "M",
+   "q": "An earthquake hits a region where a company has many staff on holiday. HR sends SMS, automated voice calls and emails asking staff to reply that they are safe. Which statements are correct? Select all relevant statements.\nI. This is notification with response (two-way).\nII. Using multiple channels avoids a single point of failure.\nIII. A good call tree needs an acknowledgement function.\nIV. One-way broadcast is enough because replies aren't needed.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "The 2004 tsunami example used multi-channel, two-way notification.",
+   "src": [
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 42,
+     "quote": "An SMS, Automated Voice Call and Email were sent to all employees known contact details. Employees can respond through one or another channel"
+    },
+    {
+     "doc": "L05 Disaster Recovery (slides)",
+     "path": "week 5/L05-Disaster Recovery  v1 30Sep26.pdf",
+     "page": 41,
+     "quote": "No single point of failure (primary and secondary) … Provide acknowledgement function"
+    }
+   ]
+  },
+  {
    "t": "L06",
    "d": "M",
    "q": "The ENISA Threat Landscape (ETL) top threats are prioritised by:",
@@ -5564,6 +5836,92 @@
    ]
   },
   {
+   "t": "L06",
+   "d": "M",
+   "q": "Your CISO wants to understand the cyber attack process before buying controls. Which statements about why we study attack models are correct? Select all relevant statements.\nI. It makes us aware of the steps taken by adversaries.\nII. It helps place appropriate preventive, detective and reactive controls.\nIII. It lets us skip having an incident response plan.\nIV. Stopping an adversary at any one Kill Chain stage breaks the chain of attack.",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Attack models inform control placement; they don't replace IR planning.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 40,
+     "quote": "Be aware of the steps taken by adversary • Place appropriate preventive, detective and reactive controls"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 12,
+     "quote": "Stopping adversaries at any stage will break the chain of"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "An employee receives a call from someone claiming to be the IT helpdesk, asking for her password to 'fix her mailbox'. What is this?",
+   "o": [
+    "Social engineering",
+    "A zero-day exploit",
+    "A buffer overflow",
+    "A DoS attack"
+   ],
+   "e": "Social engineering exploits social vulnerabilities through a 'con game' to obtain information.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 37,
+     "quote": "Any attempt to exploit social vulnerabilities to gain access to information and/or systems"
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "M",
+   "q": "Malware spreads across your network overnight without anyone opening a file or clicking a link. Which malware type BEST fits?",
+   "o": [
+    "Network worm",
+    "Virus",
+    "Trojan horse",
+    "Adware"
+   ],
+   "e": "A worm self-replicates across networks without intervention; a virus needs execution; a Trojan hides inside a genuine application.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 32,
+     "quote": "Does not require intervention or execution to replicate."
+    }
+   ]
+  },
+  {
+   "t": "L06",
+   "d": "H",
+   "q": "An attacker uses PowerShell and WMI already installed on the victim's machines and runs payloads only in memory. Why is this hard for the IR team?",
+   "o": [
+    "It avoids detection and makes forensic investigation harder",
+    "It always crashes the system",
+    "It requires physical access",
+    "It only works on macOS"
+   ],
+   "e": "This is a 'fileless' attack, an ENISA malware trend.",
+   "src": [
+    {
+     "doc": "L06 Cyber Attack Process 1 (slides)",
+     "path": "L06-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 9,
+     "quote": "Fileless attacks - attackers using native tools installed, e.g. PowerShell, WMI, etc., and running them directly in memory. This helps to avoid detection and making forensics investigations harder."
+    }
+   ]
+  },
+  {
    "t": "L08",
    "d": "E",
    "q": "What are the 4 penetration testing phases in ISACA CSX Fundamentals?",
@@ -6372,6 +6730,175 @@
      "quote": "Zero-day attacks"
     }
    ]
+  },
+  {
+   "t": "L08",
+   "d": "E",
+   "q": "Which of the following statements describe parts of the ISACA Penetration Testing ATTACK phase? Select all statements that are relevant.\nI. Gaining access to the systems and network.\nII. Escalating user credentials and privileges.\nIII. Enumerating user accounts.\nIV. Reporting vulnerabilities in the system.",
+   "o": [
+    "I, II",
+    "II, III",
+    "III, IV",
+    "IV, I"
+   ],
+   "e": "The Attack phase exploits vulnerabilities to gain access and then installs more tools to reach further systems and privileges. Enumerating accounts is Discovery (e.g. NetBIOS enumeration); reporting vulnerabilities is the Reporting phase.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 9,
+     "quote": "Process of verifying previously identified vulnerabilities by attempting to exploit them … If a tester is able to exploit a vulnerability, they can install more tools on the system or network to gain access to additional systems or resources. … NetBIOS enumeration for system information"
+    }
+   ],
+   "src_note": "Adapted from the lecturer's sample MCQ (ICT3212). Gaining access and escalating privileges are the attack sub-steps shown in the ISACA figure on slide 7."
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "Which of the following statements BEST describes the fourth stage of the Lockheed Martin Cyber Kill Chain (CKC) model?",
+   "o": [
+    "The fourth stage is about making use of a vulnerability to gain access to the victim.",
+    "The fourth stage is conducting research on the target better.",
+    "The fourth stage is about sending the malware to the target to launch the operation.",
+    "The fourth stage is about preparing the malware together with the exploit into a deliverable payload."
+   ],
+   "e": "Stage 4 is Exploitation. Research = 1 Reconnaissance; preparing the payload = 2 Weaponization; sending it = 3 Delivery.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 17,
+     "quote": "Stage #4: Exploitation"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 16,
+     "quote": "Stage #3: Delivery"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 15,
+     "quote": "Stage #2: Weaponization"
+    }
+   ],
+   "src_note": "Adapted from the lecturer's sample MCQ (ICT3212). Each stage's description is in the slide figures."
+  },
+  {
+   "t": "L08",
+   "d": "H",
+   "q": "Michael was recently hired as a Cybersecurity Manager. He suspects his organisation is a victim of an Advanced Persistent Threat (APT). Which statements BEST describe conditions that led him to believe so? Select all relevant statements.\nI. An unpatched Windows server that was newly deployed was compromised within two days of its deployment.\nII. Michael discovered many unaccounted superuser accounts on many key servers. Some were created several years ago.\nIII. His ISP emailed that his web server was talking to a known Command and Control (C2) site. He re-installed, hardened and patched it, yet days later the ISP sent the same warning again.\nIV. Michael suspects the adversary is a disgruntled ex-IT employee retrenched during the COVID-19 pandemic.",
+   "o": [
+    "II, III",
+    "I, II",
+    "III, IV",
+    "IV, I"
+   ],
+   "e": "II shows stealth (undetected for years) and persistent footholds via privileged accounts. III shows persistence: the attacker keeps access even after the malware is removed, using credentials gathered earlier. I is a quick opportunistic compromise of an unpatched server, and IV describes an insider grudge — neither is an APT hallmark.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 26,
+     "quote": "APT attacks often go undetected for months and sometimes years … Able to maintain persistent footholds on the target's organization … even after the malware is detected and removed, via post-malware use of user credentials"
+    }
+   ],
+   "src_note": "Adapted from the lecturer's sample MCQ (ICT3212). "
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "An attacker emails a weaponised PDF to the finance team, hoping someone opens it. Which Cyber Kill Chain stage is this?",
+   "o": [
+    "Delivery",
+    "Weaponization",
+    "Exploitation",
+    "Installation"
+   ],
+   "e": "Weaponization built the payload; Delivery transmits it to the target. Exploitation happens when the PDF's exploit runs.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 16,
+     "quote": "Stage #3: Delivery"
+    }
+   ],
+   "src_note": "Stage descriptions are in the slide figures."
+  },
+  {
+   "t": "L08",
+   "d": "M",
+   "q": "A pen tester runs WHOIS lookups, DNS interrogation and banner grabbing against the client's network, and uses Shodan to profile exposed services. Which phase is the tester in?",
+   "o": [
+    "Discovery",
+    "Planning",
+    "Attack",
+    "Reporting"
+   ],
+   "e": "These are information-gathering techniques of the Discovery phase, which also includes vulnerability assessment.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 8,
+     "quote": "DNS interrogation, WHOIS queries and network sniffing to discover host name and IP address information … Banner grabbing for application and service information"
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "H",
+   "q": "An incident responder reviews a long-running intrusion. Which observations point to the APT life cycle's later stages? Select all relevant statements.\nI. Sensitive files were collected into an archive, compressed and encrypted.\nII. Data left the network over custom transfer tools on non-standard ports.\nIII. The attacker's first email was a generic spam blast to random addresses.\nIV. The attackers moved laterally and installed C2 software on new systems.",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Gather & encrypt (stage 8), exfiltrate (stage 9) and lateral movement with C2 (stage 6) are APT stages. APTs target specific individuals with research-driven social engineering, not random spam.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 32,
+     "quote": "gather the data into an archive and then compress and encrypt the archive … custom data transfer technologies operating on standard and nonstandard ports"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 31,
+     "quote": "They also directly install their command-and-control software on"
+    },
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 29,
+     "quote": "Generally, the initial attack targets one or more specific individuals through some form of social engineering."
+    }
+   ]
+  },
+  {
+   "t": "L08",
+   "d": "H",
+   "q": "An APT group compromises a popular industry news site that your staff often visit, so your URL filter allows it. Which APT modus operandi is this?",
+   "o": [
+    "Compromising known good websites to bypass URL filtering",
+    "Using encryption to bypass network perimeter security",
+    "Using fresh malware tested against AVs to bypass end-point security",
+    "Using zero-days to bypass regular assessment"
+   ],
+   "e": "Each APT technique on the slide is paired with the defence it bypasses.",
+   "src": [
+    {
+     "doc": "L08 Cyber Attack Process 2 (slides)",
+     "path": "L08-Cyber Attack Process 1 2026-2027.pdf",
+     "page": 33,
+     "quote": "Compromise good known websites"
+    }
+   ],
+   "src_note": "The slide pairs each defence with the technique that bypasses it."
   },
   {
    "t": "L09",
@@ -7660,6 +8187,92 @@
      "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
      "page": 18,
      "quote": "Financial Services Institutions are required to report any serious material incidents within an hour to Monetary Authority of Singapore."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "A Singapore bank detects a serious material incident at 9:00am. By when must it notify MAS, per the L09 example?",
+   "o": [
+    "By 10:00am — within an hour",
+    "By 5:00pm the same day",
+    "Within 72 hours",
+    "Only after the investigation closes"
+   ],
+   "e": "Failure to report under mandatory conditions can lead to enforcement action.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 18,
+     "quote": "Financial Services Institutions are required to report any serious material incidents within an hour to Monetary Authority of Singapore."
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "A multinational has IR staff in APAC, EMEA and the Americas, wants a global service manager as a centre of excellence, and needs 24/7 coverage. Which team model fits?",
+   "o": [
+    "Coordinated",
+    "Centralised",
+    "Distributed",
+    "Fully outsourced"
+   ],
+   "e": "Coordinated = regional teams plus a global team, coordinating during incidents with 24/7 coverage.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 25,
+     "quote": "A service manager is responsible for the service globally (e.g. as centre of … Coordination between regional and central resources during incident"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "H",
+   "q": "Using the rev3 ransomware example, match activities to CSF 2.0 functions. Which pairings are correct? Select all relevant statements.\nI. Backups and access controls in place before the attack — Protect (PR)\nII. Ransomware activity identified — Detect (DE)\nIII. IR policies and risk appetite agreed — Respond (RS)\nIV. Lessons fed back into controls after the incident — Improve (ID)",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "IR policies, responsibilities and risk appetite belong to GOVERN (GV).",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 35,
+     "quote": "PROTECT (PR) → Access controls, backups, awareness, system protection … DETECT (DE) → Ransomware activity identified … GOVERN (GV) → IR policies, responsibilities, risk appetite, oversight … (ID) IMPROVE → Lessons feed back into controls and future preparedness"
+    }
+   ]
+  },
+  {
+   "t": "L09",
+   "d": "M",
+   "q": "A small firm is deciding whether to fully outsource incident response. Which statements are correct? Select all relevant statements.\nI. It must consider whether sensitive information can be shared with the provider.\nII. Outsourcing removes any need for in-house first-responder skills.\nIII. It should check whether the provider covers all required locations.\nIV. Division of responsibilities and access must be clear.",
+   "o": [
+    "I, III and IV",
+    "I and II",
+    "II and III",
+    "II and IV"
+   ],
+   "e": "Even when outsourcing, basic in-house first-responder skills are still needed in case the provider is unavailable.",
+   "src": [
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 28,
+     "quote": "Can the organisation provide sensitive but required information to service provider?"
+    },
+    {
+     "doc": "L09 Incident Response 1 (slides)",
+     "path": "week 9 & 10/L09-Incident Response 1-v1-hm-13Aug2026.pdf",
+     "page": 29,
+     "quote": "Is the service provider available in required locations? … Outsourcing still requires internal resources to have basic skills as first responder"
     }
    ]
   },
@@ -9406,6 +10019,196 @@
      "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
      "page": 33,
      "quote": "Choosing a Containment Strategy • Evidence Gathering and Handling • Identifying the Attacking Hosts • Eradication and Recovery"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "At 2am the SIEM shows 40 failed logins on an admin account, followed by a successful login from an unfamiliar country. Which statements are correct? Select all relevant statements.\nI. This is an indicator that an incident may be taking place.\nII. This is a precursor of a future incident.\nIII. The handler should start documenting the facts of the suspected incident.\nIV. Because it happened at night it can be ignored until morning.",
+   "o": [
+    "I, III",
+    "I, II",
+    "II, IV",
+    "III, IV"
+   ],
+   "e": "An indicator signals an incident is happening or has happened; a precursor signals one MAY happen. Documentation starts for any suspected incident.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 20,
+     "quote": "Multiple failed login attempts followed by a successful login from an unfamiliar location."
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 26,
+     "quote": "IR team should start recording all facts for any suspected incidents"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Your vendor announces a critical vulnerability in your web server software, and a hacktivist group posts that it will target your company next week. Which statements are correct? Select all relevant statements.\nI. Both are precursors.\nII. Both are indicators of compromise.\nIII. They signal an incident may occur in the future.\nIV. No action is needed until an attack is detected.",
+   "o": [
+    "I, III",
+    "II, III",
+    "I, IV",
+    "II, IV"
+   ],
+   "e": "Precursors give warning before an incident, so the team can act early (e.g. patch, increase monitoring).",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 20,
+     "quote": "A newly disclosed vulnerability affecting an organisation's systems. … A hacktivist group threatening to attack the organisation. … Precursor - a sign that an incident may occur in the future."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "Malware is found on PCs in one office segment. Which pairings of action to IR step are correct? Select all relevant statements.\nI. Disconnect the affected segment — Containment\nII. Clean or rebuild the infected PCs — Eradication\nIII. Reconnect the isolated segment — Eradication\nIV. Restore systems from clean backups — Recovery",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Reconnecting the isolated network is a RECOVERY action.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 37,
+     "quote": "Disconnect affected network segment from the rest of the network. … Clean malware from infected PCs or rebuild the PCs. … Reconnect the isolated network back to corporate network"
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 40,
+     "quote": "Restoring systems from clean backups"
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "Two incidents arrive together: (A) a marketing microsite was defaced but holds no data; (B) customer PII is being exfiltrated from the CRM database. Which should be prioritised, and why?",
+   "o": [
+    "B — information impact is higher (PII exfiltration) and it may be unrecoverable",
+    "A — it is more visible to the public",
+    "A — it was reported first",
+    "Both equally — NIST says first come, first served"
+   ],
+   "e": "Prioritise by functional impact, information impact and recoverability; exfiltrated information often cannot be recovered.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 27,
+     "quote": "Consider impact on the CIA of information, especially on information exfiltration … In some cases, e.g. loss of information, incidents cannot be recovered."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "H",
+   "q": "An analyst wants to immediately pull the network cable and power off an infected server. Which cautions apply? Select all relevant statements.\nI. Some malware encrypts or deletes data when it detects disconnection.\nII. Memory-resident malware disappears on reboot, losing evidence.\nIII. Shutting down is always the safest containment choice.\nIV. Redirecting the attacker to a sandbox instead needs discussion with Legal.",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Containment must avoid causing further damage or destroying evidence.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 36,
+     "quote": "Some malware will immediately encrypt or delete hard drive data upon detecting they are disconnected from the network. … Some malware resides completely in memory."
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 35,
+     "quote": "Need to discuss with legal department."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "The IR lead suggests leaving a compromised server online and just watching the attacker to learn their tools. What is L10's view?",
+   "o": [
+    "Not recommended — the attacker may use the compromised system to attack other systems",
+    "Recommended — always gather maximum intelligence first",
+    "Required by NIST before any containment",
+    "Only allowed on weekends"
+   ],
+   "e": "A sandbox redirection is an option, but only with Legal's involvement.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 35,
+     "quote": "NOT RECOMMENDED because attacker may use compromised systems to attack other systems."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "The legal team plans to prosecute an attacker; the case may take years. What should happen to the evidence?",
+   "o": [
+    "Retain it until legal actions are completed, with a documented chain of custody",
+    "Delete it after the incident closes",
+    "Keep it for 30 days only",
+    "Hand it to the attacker's lawyer"
+   ],
+   "e": "Evidence retention also depends on legal/regulatory data-retention requirements.",
+   "src": [
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 46,
+     "quote": "If attacker is to be prosecuted, then evidence need to be retained until legal actions are completed."
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 38,
+     "quote": "This supports chain of custody for possible legal action."
+    }
+   ]
+  },
+  {
+   "t": "L10",
+   "d": "M",
+   "q": "The team schedules the lessons-learned meeting for a major incident three months after it ended. What does NIST recommend instead?",
+   "o": [
+    "Hold it within several days of the end of the incident",
+    "Hold it only if regulators ask",
+    "Hold it after one year",
+    "Skip it for major incidents"
+   ],
+   "e": "Lessons-learned meetings are mandatory for major incidents.",
+   "src": [
+    {
+     "doc": "NIST SP 800-61 Rev. 2",
+     "path": "week 9 & 10/L09 L10-NIST SP 800-61r2 - Computer Security Incident Handling Guide.pdf",
+     "page": 47,
+     "quote": "The meeting should be held within several days of the end of the incident."
+    },
+    {
+     "doc": "L10 Incident Response 2 (slides)",
+     "path": "week 9 & 10/L10-Incident Response 2-v2-hm-31Oct2026.pdf",
+     "page": 44,
+     "quote": "IR team should evolve to reflect new threats, improved technology and lessons learned."
     }
    ]
   },
@@ -11297,6 +12100,158 @@
    ]
   },
   {
+   "t": "L11",
+   "d": "M",
+   "q": "A bank wants its SOC analysts to perform real actions on systems at their own desks, accepting some disruption for a realistic test. Which exercise type fits BEST?",
+   "o": [
+    "Functional exercise",
+    "Table-top exercise",
+    "Seminar",
+    "Workshop"
+   ],
+   "e": "Functional exercises test people, processes and equipment where they normally work; table-tops are discussion only.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 6,
+     "quote": "they test people, processes, and equipment where they normally work (like at a desk or a cubicle, as opposed to a conference room)."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "Two weeks before a cyber exercise, a planner proposes changing the scenario and adding new outcomes. Which statements are correct? Select all relevant statements.\nI. The Final Planning Meeting takes place about one month before the exercise.\nII. At the FPM, participants should not introduce new outcomes or change the scenario/MSEL.\nIII. Objectives and scenario should not be significantly modified after the IPM.\nIV. Late changes are encouraged to surprise participants.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "Scenario and objectives are locked progressively from the IPM to the FPM.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 39,
+     "quote": "Take place one month prior to the beginning of the exercise. … Participants should not introduce new outcomes, or change the exercise scenario or MSEL"
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 32,
+     "quote": "Avoid significantly modifying the objectives and scenario after this meeting."
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "The team that will be exercised is also asked to write and run the injects. What is the problem?",
+   "o": [
+    "Conflict of interest — the ECG and planners should not come from the Exercise Body",
+    "None — it saves time",
+    "Injects must always be written by regulators",
+    "Only the red team may write injects"
+   ],
+   "e": "Planners and the Exercise Control Group should be separate from the team being exercised.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 44,
+     "quote": "Should not be from the Exercise Body to avoid COI issue"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "The red team is given network diagrams and some credentials before starting. What kind of engagement is this?",
+   "o": [
+    "White box",
+    "Black box",
+    "Purple box",
+    "Blind box"
+   ],
+   "e": "Black box = no information about the environment at the start.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 10,
+     "quote": "Does the red team begin its effort with information about your environment (white box) or with no information at all (black box)?"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "H",
+   "q": "A company holds its Concept Development Meeting one week before the exercise date. What does L11 recommend instead?",
+   "o": [
+    "Hold the CDM anywhere from 2 to 12 months before the exercise",
+    "Hold the CDM after the exercise",
+    "Skip the CDM entirely",
+    "Hold the CDM one day before"
+   ],
+   "e": "The IPM then follows 2–8 weeks after the CDM, and the FPM about one month before the exercise.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 30,
+     "quote": "Concept development meeting (CDM) usually take place anywhere from 2 to 12 months prior to the actual exercise"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "An exercise planner is drafting injects for a ransomware TTX. Which statements describe GOOD injects? Select all relevant statements.\nI. Every inject relates back to the exercise objectives.\nII. Injects do not conflict with each other.\nIII. Injects should be unrealistic so players can't predict them.\nIV. Each inject has a time limit that still allows discussion.",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Realistic injects reduce 'that would never happen' complaints.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 48,
+     "quote": "all injects must relate back to the exercise objectives … injects must not conflict with each other … Creating injects which mirror the real world as much as possible can reduce those complaints. … Defining a time limit to complete injects"
+    }
+   ]
+  },
+  {
+   "t": "L11",
+   "d": "M",
+   "q": "After a TTX, the CISO asks for a pass/fail grade for each team. Which statements are correct? Select all relevant statements.\nI. The primary result of a TTX is a summary with feedback, positive observations and improvement areas — not pass/fail.\nII. Feedback forms are typically distributed immediately after the exercise.\nIII. The After Action Report captures findings and recommendations.\nIV. A TTX's goal is to rank and penalise teams.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "Exercises are improvement opportunities, not blame exercises.",
+   "src": [
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 19,
+     "quote": "The primary result of the TTX is not really a 'pass/fail' determination … Typically, feedback forms are distributed immediately after the exercise"
+    },
+    {
+     "doc": "L11 Cyber Security Exercise (slides)",
+     "path": "week 11/L11-Cyber Exercise 2026-2027.pdf",
+     "page": 51,
+     "quote": "Provides relevant background information about the event, scope of the exercise, objectives, scenario, and key findings and recommendations."
+    }
+   ]
+  },
+  {
    "t": "L12",
    "d": "H",
    "q": "OPSEC is a term from which US directive?",
@@ -12448,6 +13403,124 @@
      "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
      "page": 41,
      "quote": "Each control has attributes that can map to other cybersecurity frameworks like NIST Cybersecurity Framework (CSF), MITRE ATT&CK and CIS Controls."
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "A finance clerk can create new vendors AND approve payments to them, with no one else involved. Which control is missing?",
+   "o": [
+    "Separation/Segregation of Duties",
+    "Labelling",
+    "Degaussing",
+    "Baselining"
+   ],
+   "e": "No single person should have complete control of a sensitive transaction.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 10,
+     "quote": "NO single person should have total/complete control of a sensitive/critical transaction"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "A bank requires staff in sensitive roles to take two consecutive weeks of leave while someone else covers their work. Which statements are correct? Select all relevant statements.\nI. This is mandatory leave / forced vacation.\nII. It is similar to job rotation but shorter.\nIII. It can help detect fraud by having another person perform the role.\nIV. It is a form of media sanitisation.",
+   "o": [
+    "I, II and III",
+    "I and IV",
+    "II and IV",
+    "III and IV"
+   ],
+   "e": "Rotation of duties and mandatory leave are detective/deterrent controls against collusion and fraud.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 11,
+     "quote": "The existing staff is asked to take a \"forced\" vacation, while another staff takes over the role temporarily … Similar to job rotation except it is usually on a shorter period, ranging from 1 to 2 weeks"
+    },
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 10,
+     "quote": "May detect fraud"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "A company sold old hard disks after 'deleting' the files, and the buyer recovered customer data. Which statements are correct? Select all relevant statements.\nI. Deleting a file removes pointers; the data remains (data remanence).\nII. Degaussing or physical destruction would have prevented recovery.\nIII. Deleting files is a secure sanitisation method.\nIV. A media sanitisation policy should cover backup media too.",
+   "o": [
+    "I, II and IV",
+    "I and III",
+    "II and III",
+    "III and IV"
+   ],
+   "e": "Deleted data is recoverable; use wiping, degaussing or physical destruction.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 16,
+     "quote": "When file is deleted, file system removes metadata pointers or references to the file. Actual file remains. … Most extreme mode, e.g. incineration, pulverisation"
+    },
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 14,
+     "quote": "Remember that media security applies to primary and backup media"
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "M",
+   "q": "Attackers log in using the account of an employee who resigned eight months ago. Which process failed?",
+   "o": [
+    "De-registration/off-boarding and regular entitlement review",
+    "Separation of duties",
+    "Labelling",
+    "Clock synchronisation"
+   ],
+   "e": "Lack of entitlement review leads to dormant/obsolete accounts that attackers can exploit.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 27,
+     "quote": "Lack of regular entitlement review may lead to dormant/obsolete accounts which may be exploited by malicious attackers … Deletes user's access rights due to termination or resignation."
+    }
+   ]
+  },
+  {
+   "t": "L12",
+   "d": "H",
+   "q": "A developer installs a new tool directly on production servers and tests code there too. Which ISO 27002:2013 controls are breached? Select all relevant statements.\nI. 12.5.1 Installation of software on operational systems\nII. 12.1.4 Separation of development, testing and operational environments\nIII. 12.4.4 Clock synchronisation\nIV. 12.3.1 Information backup",
+   "o": [
+    "I, II",
+    "II, III",
+    "III, IV",
+    "IV, I"
+   ],
+   "e": "Software installation on operational systems must be controlled, and dev/test must be separated from production.",
+   "src": [
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 35,
+     "quote": "Procedures shall be implemented to control the installation of software on operational systems."
+    },
+    {
+     "doc": "L12 Operations Security (slides)",
+     "path": "L12-Operations Security-v2-hm-10Nov2026.pdf",
+     "page": 31,
+     "quote": "12.1.4 Separation of development, testing Development, testing, and operational environments"
     }
    ]
   },

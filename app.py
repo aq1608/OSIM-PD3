@@ -185,7 +185,8 @@ def h(s) -> str:
     s = html.escape(str(s))
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
     s = re.sub(r"\*(.+?)\*", r"<i>\1</i>", s)
-    return s.replace("$", "&#36;").replace("*", "&#42;").replace("_", "&#95;").replace("`", "&#96;")
+    s = s.replace("$", "&#36;").replace("*", "&#42;").replace("_", "&#95;").replace("`", "&#96;")
+    return s.replace("\n", "<br>")   # scenario questions list statements I–IV on separate lines
 
 
 def plain(s) -> str:
